@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Evidence-first clinical documentary case: longitudinal relationship between structural foot pathology, Parkinsonism, pain, treatment state and management architecture.">
+  <title>Clinical Documentary Case</title>
+  <style>
+    :root {
+      --bg: #f5f3ee;
+      --paper: #fffdf9;
+      --ink: #17202a;
+      --muted: #667085;
+      --line: #d8d3c8;
+      --accent: #173b57;
+      --accent2: #8a5b2d;
+      --soft: #eef3f6;
+      --warn: #f6efe5;
+      --max: 1180px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.62;
+    }
+    a { color: var(--accent); }
+    .wrap { width: min(var(--max), calc(100% - 36px)); margin: 0 auto; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(10px);
+      background: rgba(245,243,238,.92);
+      border-bottom: 1px solid var(--line);
+    }
+    nav {
+      min-height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+    .brand { font-weight: 760; letter-spacing: -.02em; color: var(--ink); text-decoration: none; }
+    .navlinks { display: flex; gap: 16px; flex-wrap: wrap; font-size: .93rem; }
+    .navlinks a { text-decoration: none; color: var(--muted); }
+    .navlinks a:hover { color: var(--accent); }
+    .hero { padding: 88px 0 56px; }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--accent2);
+      background: var(--paper);
+      font-size: .78rem;
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      font-weight: 760;
+    }
+    h1, h2, h3 { line-height: 1.15; letter-spacing: -.025em; }
+    h1 { margin: 22px 0 20px; max-width: 920px; font-size: clamp(2.5rem, 6vw, 5.3rem); }
+    h2 { font-size: clamp(1.8rem, 3vw, 2.8rem); margin: 0 0 18px; }
+    h3 { font-size: 1.1rem; margin: 0 0 9px; }
+    .lead { max-width: 880px; font-size: clamp(1.08rem, 2vw, 1.34rem); color: #394553; }
+    .hero-actions { margin-top: 30px; display: flex; gap: 12px; flex-wrap: wrap; }
+    .button {
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 8px;
+      padding: 11px 16px;
+      border: 1px solid var(--accent);
+      font-weight: 700;
+      font-size: .93rem;
+    }
+    .button.primary { background: var(--accent); color: white; }
+    .button.secondary { background: transparent; color: var(--accent); }
+    section { padding: 58px 0; }
+    .paper {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: clamp(22px, 4vw, 42px);
+      box-shadow: 0 10px 30px rgba(20,28,36,.035);
+    }
+    blockquote {
+      margin: 24px 0 0;
+      border-left: 4px solid var(--accent2);
+      padding: 4px 0 4px 22px;
+      color: #273542;
+      font-size: 1.18rem;
+    }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+    .card {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .card p { margin: 0; color: var(--muted); }
+    .kicker { color: var(--accent2); font-weight: 800; font-size: .78rem; letter-spacing: .09em; text-transform: uppercase; }
+    .chain {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0,1fr));
+      gap: 10px;
+      margin-top: 24px;
+    }
+    .chain div {
+      background: var(--soft);
+      border: 1px solid #d6e0e6;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      font-weight: 730;
+      font-size: .9rem;
+    }
+    .split { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .position { border-top: 4px solid var(--accent); }
+    .position.benign { border-top-color: #58725a; }
+    .position.path { border-top-color: #8a5b2d; }
+    .position ul { margin-bottom: 0; padding-left: 20px; }
+    .timeline { border-left: 2px solid var(--line); margin-left: 8px; padding-left: 24px; }
+    .event { position: relative; margin: 0 0 25px; }
+    .event:before {
+      content: "";
+      position: absolute;
+      left: -31px;
+      top: 6px;
+      width: 11px;
+      height: 11px;
+      border-radius: 50%;
+      background: var(--accent2);
+      border: 3px solid var(--bg);
+    }
+    .event strong { display: block; color: var(--accent); }
+    .question-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin-top: 20px; }
+    .q {
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: var(--paper);
+      padding: 14px 16px;
+      font-size: .94rem;
+    }
+    .q b { color: var(--accent2); }
+    .files { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; }
+    .file {
+      display: block;
+      text-decoration: none;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 16px;
+      color: var(--ink);
+    }
+    .file span { display: block; color: var(--muted); font-size: .9rem; margin-top: 4px; }
+    .notice { background: var(--warn); border: 1px solid #e4d5c0; border-radius: 12px; padding: 18px 20px; }
+    footer { padding: 42px 0 58px; color: var(--muted); font-size: .9rem; }
+    @media (max-width: 860px) {
+      .grid, .split, .chain, .question-grid, .files { grid-template-columns: 1fr; }
+      header { position: static; }
+      .navlinks { display: none; }
+      .hero { padding-top: 56px; }
+    }
+    @media print {
+      header, .hero-actions { display:none; }
+      body { background:white; }
+      .paper, .card, .q, .file { box-shadow:none; break-inside: avoid; }
+      section { padding: 24px 0; }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="#top">Clinical Documentary Case</a>
+      <div class="navlinks">
+        <a href="#issue">Central issue</a>
+        <a href="#evidence">Evidence chain</a>
+        <a href="#timeline">Hinges</a>
+        <a href="#questions">Expert questions</a>
+        <a href="#case">Competing readings</a>
+        <a href="#record">Record</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Evidence-first · 2017–2026</span>
+      <h1>When does an unresolved clinical partition have to be reopened?</h1>
+      <p class="lead">A longitudinal documentary analysis of structural foot pathology, pain, Parkinsonism, dystonia, medication state, treatment risk and the management architecture that connected — and separated — them.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="https://github.com/TitanicParker/once/blob/main/CLINICAL-ARGUMENT.md">Read the strongest argument</a>
+        <a class="button secondary" href="https://github.com/TitanicParker/once/blob/main/EXPERT-QUESTIONS.md">30 expert questions</a>
+        <a class="button secondary" href="https://github.com/TitanicParker/once">Source repository</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="issue">
+    <div class="wrap paper">
+      <span class="kicker">Central issue</span>
+      <h2>The strongest case is longitudinal, not binary.</h2>
+      <p>The record does not support a simple claim that every foot symptom was Parkinsonian, that Podiatry was inappropriate, or that levodopa necessarily should have begun in July 2017. Structural disease was real. Neurological disease was real. Their relationship was expressly left unresolved.</p>
+      <blockquote><strong>An expressly unresolved mixed structural–neurological presentation was converted into workable parallel management pathways. The central question is whether, and when, accumulating evidence required the original relationship and management architecture to be explicitly reopened rather than repeatedly updated only at component level.</strong></blockquote>
+    </div>
+  </section>
+
+  <section id="evidence">
+    <div class="wrap">
+      <span class="kicker">Method</span>
+      <h2>A traceable evidential chain</h2>
+      <p class="lead">Every analytical layer is downstream of the canonical record. Treatment response is evidence of modifiability, not automatic proof of mechanism.</p>
+      <div class="chain">
+        <div>Complete record</div>
+        <div>Timeline</div>
+        <div>Facts</div>
+        <div>Tensions</div>
+        <div>Propositions</div>
+        <div>30 expert questions</div>
+        <div>Management plan</div>
+        <div>Reliability</div>
+        <div>Adversarial survival</div>
+        <div>Clinical argument</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap grid">
+      <article class="card">
+        <span class="kicker">Fact discipline</span>
+        <h3>Mixed pathology stays mixed</h3>
+        <p>Structural deformity, focal fifth-MTPJ pathology, pain, dystonia/posture, gait, neuropathic hypotheses and medication-state effects are not collapsed into a single variable.</p>
+      </article>
+      <article class="card">
+        <span class="kicker">Causal discipline</span>
+        <h3>Response is not mechanism</h3>
+        <p>Procyclidine, pregabalin, Stalevo and Sinemet responses can show treatment sensitivity without proving the original generator of pain or structural lesions.</p>
+      </article>
+      <article class="card">
+        <span class="kicker">Hindsight discipline</span>
+        <h3>PRKN is not back-projected</h3>
+        <p>The 2026 genetic result validates the early PARK2 branch, but it cannot be treated as knowledge available to clinicians in 2017.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="timeline">
+    <div class="wrap paper">
+      <span class="kicker">Longitudinal hinges</span>
+      <h2>The points at which the architecture could be tested</h2>
+      <div class="timeline">
+        <div class="event"><strong>April–July 2017</strong>Bilateral foot pain, structural pathology, severe young-onset Parkinsonism and dystonic-looking gait converge. Neurology records the relationship as <em>“Not clear.”</em></div>
+        <div class="event"><strong>September 2017</strong>Healy considers probable PARK2 and describes cautious low-dose dopamine replacement with dyskinesia risk if over-used.</div>
+        <div class="event"><strong>October 2017</strong>Procyclidine withdrawal produces deterioration involving tension, feet and gait: an early treatment-state signal inside the disputed lower-limb domain.</div>
+        <div class="event"><strong>2017–2019</strong>Repeated left fifth-MTPJ callus/HD establishes a genuine persistent focal structural signal; Dec 2018 directly links left-sided pain, objective lesion and targeted offloading.</div>
+        <div class="event"><strong>2020</strong>Neurology classifies the foot-throw phenomenon as actually Parkinsonian, strengthening the neurological component without resolving pain mechanism.</div>
+        <div class="event"><strong>2021</strong>Sinemet begins. Literal levodopa deferral ends, but the higher-order dopamine-sparing policy remains explicit. The record does not show structured foot-by-dose outcome measurement.</div>
+        <div class="event"><strong>2022–2024</strong>Morning foot warm-up, OFF/undertreatment evidence, high-dose pregabalin, bilateral burning pain and persistent toe curling reveal multiple overlapping phenotypes.</div>
+        <div class="event"><strong>2025</strong>Overnight gap, first-step pain and relief after Parkinson medication lead to targeted Sinemet CR; later response records “profound relief.”</div>
+        <div class="event"><strong>2025 complaint</strong>The dispute is reopened, but the response largely defends the historical management logic and retains pain “of whatever cause” as compatible with levodopa benefit.</div>
+        <div class="event"><strong>2026</strong>Two pathogenic PRKN variants confirm Parkin-related Parkinsonism/dystonia, validating the early genetic branch without retrospectively proving the foot-pain mechanism.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="case">
+    <div class="wrap">
+      <span class="kicker">Adversarial balance</span>
+      <h2>Two serious readings of the same record</h2>
+      <div class="split">
+        <article class="card position benign">
+          <h3>Strongest benign explanation</h3>
+          <ul>
+            <li>Structural foot disease was genuine and Podiatry was appropriate.</li>
+            <li>The patient himself initially distinguished mechanical foot pain from leg tension.</li>
+            <li>Treatment toxicity was real: ocular effects, chorea, dyskinesia and impulse-control concerns.</li>
+            <li>Pregabalin materially helped pain while toe curling persisted, supporting a mixed model.</li>
+            <li>OFF states were recognised and treated as they became clearer.</li>
+            <li>CR was introduced once the overnight temporal pattern became explicit.</li>
+          </ul>
+        </article>
+        <article class="card position path">
+          <h3>Strongest path-dependent interpretation</h3>
+          <ul>
+            <li>A provisional 2017 solution to uncertainty became a durable organising architecture.</li>
+            <li>Cross-domain evidence repeatedly generated local treatment changes without a visible global reconstruction.</li>
+            <li>The architecture could preserve separate primary pain while explaining neurological drug effects as modulation.</li>
+            <li>The 2025 complaint response reaches back to the original levodopa-sparing rationale rather than documenting abandonment of the old frame.</li>
+            <li>The expert question is what evidence should have required the original partition itself to return to an open state.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="questions">
+    <div class="wrap">
+      <span class="kicker">Expert control grid</span>
+      <h2>30 questions before conclusions</h2>
+      <p class="lead">The expert questions are designed to force the case through the strongest competing interpretations before any specialist conclusion is treated as established.</p>
+      <div class="question-grid">
+        <div class="q"><b>01–04</b> Original mixed presentation: structural disease, neurological loading, “Not clear,” GP versus Neurology, and the patient’s own distinction.</div>
+        <div class="q"><b>05–08</b> Podiatry and ownership: what Podiatry could answer, whether an integration loop was required, recurrent fifth-MTPJ pathology, and the unexplained endpoint.</div>
+        <div class="q"><b>09–12</b> Galway versus Healy: levodopa strategy, the meaning of “unless you’d advise otherwise,” PARK2 expectations and genetic-management relevance.</div>
+        <div class="q"><b>13–15</b> Procyclidine natural experiment: what withdrawal established, how to interpret the outside-left phenomenon, and the reassessment threshold.</div>
+        <div class="q"><b>16–18</b> Levodopa-deferral frame: original caution, later validation of toxicity risk, and the 2019 “as long as humanly possible” policy.</div>
+        <div class="q"><b>19–20</b> 2020 neurological foot findings: Parkinsonian foot throw, sensitivity and excessive movement.</div>
+        <div class="q"><b>21–23</b> 2021 treatment design: what should have been measured, IR Sinemet versus measurement failure, and continuity of the old plan.</div>
+        <div class="q"><b>24–26</b> 2022–24 competing explanations: morning warm-up, OFF versus neuropathic pain, and pain-versus-curling separation.</div>
+        <div class="q"><b>27–28</b> Pregabalin provenance: GP initiation versus later Sinemet-sparing rationale and possible retrospective reconstruction.</div>
+        <div class="q"><b>29–30</b> 2025–26 synthesis: what CR response proves, and when — if ever — reasonable practice required global reassessment.</div>
+      </div>
+      <div class="hero-actions"><a class="button primary" href="https://github.com/TitanicParker/once/blob/main/EXPERT-QUESTIONS.md">Read all 30 in full</a></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap paper">
+      <span class="kicker">Management plan</span>
+      <h2>Medication changes are not the same thing as a changed explanatory architecture.</h2>
+      <p>Literal levodopa deferral ended in 2021. The more difficult longitudinal question is whether the higher-order policy — dopamine minimisation because of young-age toxicity, use of alternative symptom routes where possible, and preservation of a potentially separate structural/peripheral pain generator — remained functionally alive after individual treatments changed.</p>
+      <blockquote>The repository therefore distinguishes <strong>local management change</strong>, <strong>global reassessment</strong>, <strong>continuation of prior policy</strong>, and <strong>retrospective defence of prior policy</strong>.</blockquote>
+      <div class="hero-actions"><a class="button secondary" href="https://github.com/TitanicParker/once/blob/main/MANAGEMENT-PLAN.md">Read management-plan audit</a></div>
+    </div>
+  </section>
+
+  <section id="record">
+    <div class="wrap">
+      <span class="kicker">Repository</span>
+      <h2>Read the evidential layers directly</h2>
+      <div class="files">
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/complete-record.md"><strong>Complete record</strong><span>Canonical longitudinal source with stable CLIN identifiers.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/TIMELINE.md"><strong>Timeline</strong><span>Neutral hinge chronology.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/FACTS.md"><strong>Facts</strong><span>Atomic documentary facts before inference.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/TENSIONS.md"><strong>Tensions</strong><span>Actor-to-actor and evidence-to-management conflicts.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/PROPOSITIONS.md"><strong>Propositions</strong><span>Candidate explanations with evidential status.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/EXPERT-QUESTIONS.md"><strong>Expert questions</strong><span>The 30-question control grid.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/MANAGEMENT-PLAN.md"><strong>Management plan</strong><span>Longitudinal treatment and decision architecture.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/RECORD-RELIABILITY.md"><strong>Record reliability</strong><span>Contemporaneous sources versus retrospective reconstruction.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/ADVERSARIAL-SURVIVAL.md"><strong>Adversarial survival</strong><span>What survives the strongest benign and critical readings.</span></a>
+        <a class="file" href="https://github.com/TitanicParker/once/blob/main/CLINICAL-ARGUMENT.md"><strong>Clinical argument</strong><span>The strongest case reasonably available from the documentary record.</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap notice">
+      <strong>Scope.</strong> This is a documentary clinical analysis. It does not itself determine negligence, breach of duty, legal causation, damages or specialist standard of care. Where the record cannot resolve mechanism, counterfactual treatment or clinical standard, those questions remain for independent expert opinion.
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Clinical Documentary Case · Evidence first · Complete record → facts → tensions → propositions → expert questions → argument</div>
+</footer>
+</body>
+</html>

@@ -1,8 +1,18 @@
 # Clinical Timeline
 
+**Role:** chronological test layer for the five propositions in [`clinical-argument-readable-updated-1.html`](clinical-argument-readable-updated-1.html).
+
 **Scope:** clinical only, from the presenting history and 2017 referral through the February 2026 genetic confirmation.
 
 **Control:** this is a chronological extraction from `complete-record.md`, not a second argument. Where the source permits, medication information is separated into **Prescription / plan** (what was ordered or recommended) and **Medication / response** (what was actually taken, stopped, restarted, tolerated or reported to help/harm). A prescription does not prove ingestion, and a treatment response does not by itself establish mechanism.
+
+## Proposition landmarks
+
+- **P1 — 2017 unresolved relationship:** initial integrated presentation; neurological and structural findings; relationship recorded as “Not clear.”
+- **P2 — management architecture:** deliberate levodopa deferral, symptomatic/adjunct treatment and parallel Podiatry; first levodopa in 2021 followed by constrained exposure.
+- **P3 — later evidence:** treatment-state sensitivity, OFF phenomena, structural pathology, pregabalin response and contrary evidence accumulate across time.
+- **P4 — integration question:** the chronology records repeated local adaptations; whether they amount to adequate comprehensive re-evaluation is for expert determination.
+- **P5 — threshold:** the timeline supplies the sequence from which an expert can identify when, if ever, explicit integrated re-evaluation became required.
 
 ## 2017
 
@@ -87,3 +97,7 @@ The record therefore contains two related but non-identical histories:
 **Actual use / response:** marked benefit and visual limitation with procyclidine; withdrawal-associated worsening of tension/feet/gait; Neupro benefit complicated by impulsivity/chorea-dyskinesia; amantadine ineffective/intolerable; variable and PRN levodopa use; OFF-related leg/foot phenomena alongside contradictory medication-off evidence; substantial but incomplete pregabalin benefit; worsening after self-reduction of Lyrica; and marked reported improvement after Sinemet CR.
 
 Neither sequence, by itself, determines the mechanism of every foot symptom. Their value is chronological: they show what was prescribed, what was actually used where documented, and what changed with treatment state.
+
+---
+
+**Verification:** factual assertions and `CLIN-` locators should be checked against [`complete-record.md`](complete-record.md). The timeline supplies sequence; the organising essay supplies the argument.

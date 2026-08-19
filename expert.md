@@ -1,17 +1,15 @@
-FINAL MOVEMENT-DISORDERS EXPERT QUESTIONS
+FINAL REVISED MOVEMENT-DISORDERS EXPERT QUESTIONS
 
-1. EARLIEST PHENOTYPE — WAS THE DISORDER ALREADY DYSTONIC?
+1. EARLY PHENOTYPE — WAS THE LOWER-LIMB/FOOT DISORDER PART OF THE PRESENTING MOVEMENT DISORDER?
 
-Given the history from approximately 2004 of abnormal bodily and leg “tension,” including the need to assume particular bodily postures in bed in order to obtain a sense of relief, followed closely by longstanding foot symptoms and then slowly progressive parkinsonism, how should a movement-disorders neurologist interpret those earliest symptoms?
+Given the earliest history of abnormal bodily and leg “tension,” relief obtained by assuming particular postures, subsequent longstanding foot symptoms, and the later neurological examination expressly describing a foot-drop-like gait as dystonic rather than true foot drop, how should a movement-disorders neurologist have interpreted the early lower-limb syndrome?
 
-In particular, should they have raised the possibility that the disorder began with a dystonic or tonic lower-limb/body phenomenon rather than the emotional circumstances surrounding onset being treated as explanatory?
-
-How much weight should be given to the fact that the later neurological examination itself described the apparent foot-drop-like gait as suggestive of a dystonic posture and expressly stated that it was “NOT FOOT DROP”?
+In particular, did the chronology reasonably raise the possibility of an early dystonic lower-limb manifestation of the same disorder that later presented as young-onset parkinsonism, while still allowing for genuine secondary structural foot pathology?
 
 
-2. PRKN/PARK2 PHENOTYPE — HOW STRONG WAS THE PROSPECTIVE SIGNAL?
+2. PRKN/PARK2 — HOW STRONG WAS THE PROSPECTIVE PHENOTYPIC SIGNAL?
 
-Using only the information available at the time, how strongly should the combination of:
+Using only information available at the time, what diagnostic weight should have been given to the combination of:
 
 • very young onset;
 • akinetic-rigid parkinsonism;
@@ -20,136 +18,144 @@ Using only the information available at the time, how strongly should the combin
 • preserved cognition;
 • absence of a dominant family history;
 • brisk reflexes;
-• very slow progression; and
-• documented lower-limb dystonic posturing
+• very slow evolution; and
+• documented lower-limb dystonic posturing?
 
-have raised PRKN/PARK2 as a working diagnostic hypothesis?
-
-Should the lower-limb dystonia have been integrated explicitly into the same PRKN phenotype already being considered on the basis of age, symmetry, rigidity, family history and cognition?
+Should lower-limb dystonia have been explicitly integrated into the PRKN/PARK2 phenotype already being considered by the treating neurologist and independently suspected by Prof Healy?
 
 
-3. THE FOOT DISORDER — WAS IT TOO READILY COMPARTMENTALISED?
+3. “NOT CLEAR” — WHAT SHOULD HAVE HAPPENED WHEN THE FOOT-CAUSATION QUESTION REMAINED OPEN?
 
-Once lower-limb dystonic posturing had been documented neurologically, was it sufficient to leave the relationship between Parkinsonism and the longstanding foot pain, corns, calluses, burning and structural abnormalities as “Not clear” and manage the structural component through Podiatry?
+Neurology expressly left the relationship between the recurrent corns/calluses/burning foot syndrome and the Parkinsonian disorder as “Not clear.”
 
-Or should Neurology also have investigated whether dystonic posture, abnormal tone, gait and altered loading were contributing to the development, recurrence or severity of the structural foot pathology and pain?
+Once dystonic posturing and structural pathology were both documented, was it clinically sufficient to manage the structural findings through Podiatry while leaving the neurological relationship unresolved?
 
-Put differently: did the existence of genuine Podiatric pathology answer the separate neurological question of why the feet were being loaded and used abnormally?
+Or should the working model have remained explicitly multi-factorial, including possible dystonia, abnormal loading, structural pain generation, neuropathic mechanisms and neurological pain modulation?
 
-
-4. PROCYCLIDINE — WHAT DID THE TREATMENT/WITHDRAWAL EXPERIMENT ESTABLISH?
-
-What clinical significance should have been attributed to the dramatic response to procyclidine and the subsequent deterioration during planned withdrawal, including increasing bodily tension, restless feet, deterioration of gait and the documented rapid return of the outside-left-foot/corn-associated phenomenon?
-
-Did this establish a patient-specific finding that at least part of the longstanding lower-limb/foot syndrome was neurologically medication-state modifiable, even though it did not prove that every component of the pain was dystonic or neurological?
-
-If so, should that finding have become a durable clinical premise whenever the foot syndrome subsequently recurred?
+In particular, did successful treatment of a corn or callus answer the separate question of why the foot was being postured or loaded abnormally?
 
 
-5. SUSPECTED PRKN — SHOULD THE PHENOTYPE HAVE CHANGED HOW THE PATIENT WAS MONITORED?
+4. PROCYCLIDINE — DID THE 2017–2018 WITHDRAWAL EXPERIENCE MATERIALLY CHANGE THE EVIDENTIAL STATE?
 
-Once PRKN/PARK2 became a specific working hypothesis, should that phenotype have altered the interpretation and surveillance of:
+What clinical significance should have been attributed to the planned procyclidine withdrawal, during which increasing tension, restless feet and deteriorating gait were recorded, followed by the 2018 treating-neurologist documentation that the outside-left-foot/corn phenomenon was the first thing to change rapidly?
+
+Did that sequence establish a patient-specific finding that at least part of the foot symptom complex was neurologically medication-state sensitive?
+
+If so, should that finding have become a durable premise whenever the same or closely related foot problem later recurred, even though it did not establish a single pain mechanism?
+
+
+5. EVIDENTIAL CONTINUITY — WERE BENEFIT AND RISK EVIDENCE CARRIED FORWARD SYMMETRICALLY?
+
+The longitudinal record shows strong visible carry-forward of patient-specific adverse-effect evidence, including dyskinesia, behavioural/impulsivity concerns and later low-dose levodopa sensitivity.
+
+By contrast, the earlier foot-specific medication-state evidence was retained locally into 2018 but was not visibly re-used with the same consistency when recurrent foot pain reappeared years later.
+
+Was that asymmetry clinically important?
+
+Specifically, should evidence that constrained dopaminergic treatment and evidence that supported neurological treatment benefit to the feet have remained equally active components of the later risk-benefit assessment?
+
+
+6. SPECIALIST/PRKN KNOWLEDGE — SHOULD THE SUSPECTED PHENOTYPE HAVE ALTERED SURVEILLANCE EVEN IF GENETICS DID NOT IMMEDIATELY CHANGE THE DRUG LIST?
+
+Once PRKN/PARK2 became a specific working hypothesis, and Prof Healy independently considered that the patient “probably has Park II,” should that suspected phenotype have changed how clinicians interpreted and monitored:
 
 • lower-limb dystonia;
-• medication responsiveness;
-• pain associated with motor state;
-• wearing-off or other motor/non-motor fluctuations; and
-• susceptibility to dyskinesia,
+• treatment responsiveness;
+• wearing-off;
+• pain related to medication state;
+• motor fluctuations; and
+• susceptibility to dyskinesia?
 
-irrespective of whether formal genetic confirmation would immediately have changed the list of prescribed drugs?
+How should this be assessed in light of the treating neurologist’s acknowledgement that he was not a movement-disorders neurologist?
 
-How should this be assessed in light of the treating neurologist’s contemporaneous statement that he was not a movement-disorders neurologist, while also acknowledging that genotype might assist understanding of levodopa sensitivities?
-
-
-6. SPECIALIST OPINION — WHAT DID PROF HEALY’S PARK2 ASSESSMENT ACTUALLY IMPLY FOR MANAGEMENT?
-
-What weight should have been given to Prof Daniel Healy’s independent opinion that the patient “probably has Park II,” his recommendation to test PARK2 first, his recognition of the dramatic response to procyclidine and rasagiline, and his observation that PARK2 patients may manage for long periods on relatively low doses of dopamine replacement while becoming dyskinetic if over-used?
-
-Did that opinion support a general policy of withholding levodopa for as long as possible?
-
-Or did it more accurately describe a treatment-sensitive disorder requiring careful optimisation within a relatively narrow dopaminergic therapeutic window?
-
-At what point, if any, should further movement-disorders specialist review have been sought as that treatment-window problem became clinically apparent?
+Does saying that genetic confirmation would probably not immediately change management adequately answer the separate question of whether the suspected phenotype should have changed clinical interpretation and surveillance?
 
 
-7. THE 2021 THERAPEUTIC SUBSTITUTION — THE CENTRAL TREATMENT HINGE
+7. 2021 THERAPEUTIC SUBSTITUTION — THE CENTRAL TREATMENT HINGE
 
-When procyclidine was withdrawn in 2021 and replaced by immediate-release Sinemet, was the therapeutic substitution ever demonstrated to reproduce the foot-specific benefit or control associated with the previous medication state?
+When procyclidine was withdrawn because of ocular concerns and replaced by immediate-release Sinemet, was the therapeutic substitution ever demonstrated to reproduce the foot-specific benefit or control associated with the previous medication state?
 
-The expectation that Sinemet would “more than compensate” for Kemadrin was a prediction about substitution. Was the success of that substitution actually assessed against the feet as a specific symptom domain, given that the feet had already supplied their own treatment-response signal?
+The expectation that Sinemet would “more than compensate” for Kemadrin was a prediction.
 
-Or was adequacy of replacement inferred from general Parkinsonian motor function while the foot-specific question remained untested?
+Was that prediction actually tested against the feet as a distinct clinical domain?
 
-In short:
+Or was adequacy of replacement inferred predominantly from general Parkinsonian motor function and tolerability?
 
-KNOWN FOOT RESPONSE
+The essential sequence is:
+
+KNOWN FOOT MEDICATION-STATE RESPONSE
 → PROCYCLIDINE REMOVED
-→ SINEMET EXPECTED TO COMPENSATE
-→ WAS COMPENSATION OF THE FEET EVER DEMONSTRATED?
+→ SINEMET INTRODUCED AS REPLACEMENT
+→ COMPENSATION EXPECTED
+→ WAS FOOT-SPECIFIC COMPENSATION EVER DEMONSTRATED?
 
 
-8. 2022 ONWARD — COULD THE SINEMET REGIMEN ITSELF HAVE BEEN SHAPING THE PAIN PATTERN?
+8. 2022–2024 — DID THE SUBSEQUENT PATTERN REQUIRE REASSESSMENT OF THE LEVODOPA REGIMEN ITSELF?
 
-Could intermittent immediate-release levodopa have become an important determinant of the expression of a pre-existing medication-sensitive lower-limb/foot syndrome — not by causing the underlying disorder, but by repeatedly exposing it during end-of-dose and prolonged overnight troughs?
+After the 2021 substitution, what significance should have been attached to:
 
-Could such a regimen plausibly generate:
+• the 2022 reproducible 20–25-minute morning foot “warm-up”;
+• flexible/demand-related immediate-release Sinemet use;
+• later morning and evening deterioration;
+• OFF-related pain and shuffling;
+• dyskinesia at higher dopaminergic states; and
+• pain relief coexisting with persistent toe curling on pregabalin?
 
-• painful OFF dystonia;
-• rigidity and abnormal foot loading;
-• non-motor OFF pain amplification;
-• transitional or diphasic dystonic phenomena;
-• improvement once medication became effective; and
-• dyskinesia at higher dopaminergic states?
+Could this pattern indicate that the treatment problem was not simply “more versus less levodopa,” but the temporal distribution of dopaminergic stimulation — with clinically important troughs at one end and dyskinesia-producing peaks at the other?
 
-In that context, what should have been made of the 2022 observation that the feet required approximately 20–25 minutes to “warm up” in the morning while the small Sinemet doses were described as optional and adjusted according to anticipated activity?
-
-Should that have triggered a structured assessment of medication timing, symptom timing and first-dose response?
+At what point should dose, timing, consistency, food interaction, formulation and duration of coverage have been considered as separate therapeutic variables?
 
 
-9. LATER 2023 — ONCE PAIN/SHUFFLING WERE CALLED OFF-RELATED, SHOULD THE WHOLE 24-HOUR REGIMEN HAVE BEEN REASSESSED?
+9. LATER 2023 — WHEN DID THE MEDICATION-STATE HYPOTHESIS BECOME STRONG ENOUGH TO REQUIRE GLOBAL RE-SYNTHESIS?
 
-Once the patient reported worsening pain and shuffling when Sinemet had not been taken, and Neurology itself concluded that he appeared undertreated and that the leg pain and shuffling were OFF-related, had the medication-state hypothesis become sufficiently strong to require explicit re-synthesis of the earlier history?
+Once the record explicitly documented worse pain and shuffling when Sinemet had not been taken, and Neurology itself concluded that the symptoms appeared OFF-related and that the patient appeared undertreated, should that new evidence have triggered explicit re-synthesis of:
 
-At that point, should the clinical question have expanded beyond whether total levodopa should be increased to include:
+• the original “Not clear” foot relationship;
+• the 2017 procyclidine withdrawal;
+• the 2018 focal outside-left-foot return;
+• the 2022 morning pattern;
+• persistent structural pathology;
+• pregabalin responsiveness; and
+• dyskinesia sensitivity?
 
-• interdose intervals;
-• consistency of dosing;
-• relationship to food;
-• demand-related dosing;
-• immediate-release versus longer-duration formulations;
-• daytime troughs; and
-• the prolonged overnight period without levodopa?
+Was later 2023 the point at which medication-state sensitivity should have become a stable part of the global working model rather than a locally observed phenomenon?
 
-Given the simultaneous presence of dyskinesia at higher states, should the problem have been conceptualised as one of excessive peaks AND clinically important troughs rather than simply a reason to keep total Sinemet “absolutely minimal”?
+And if so, should the entire 24-hour levodopa architecture — including the overnight gap — then have been examined?
 
 
-10. THE 2025 SINEMET CR RESPONSE — WHAT DOES “PROFOUND RELIEF” REVEAL ABOUT THE PRECEDING TREATMENT ARCHITECTURE?
+10. 2025 SINEMET CR — WHAT DOES THE “PROFOUND RELIEF” ESTABLISH, AND HOW FAR BACK MAY IT REACH?
 
-Given that the patient had already received intermittent daytime immediate-release levodopa for several years, what is the clinical significance of the reported “profound relief” after controlled-release Sinemet was introduced into the previously untreated overnight interval?
+Given that the patient had already been receiving intermittent daytime immediate-release levodopa for several years, what is the clinical significance of the reported profound relief after controlled-release Sinemet was introduced to extend overnight coverage?
 
-Does that response provide strong patient-specific evidence that inadequate temporal dopaminergic coverage — particularly the prolonged overnight trough — had been an important determinant of the then-current foot-pain burden?
+Does that outcome strongly support the proposition that inadequate temporal dopaminergic coverage — particularly the prolonged overnight trough — was materially contributing to the then-current morning foot-pain burden?
 
-Does it support a model in which the patient had been experiencing:
+Does the result support a narrow-therapeutic-window model in which:
 
-• pain/dystonia/abnormal loading at low dopaminergic states;
-• relief within an effective therapeutic range; and
-• dyskinesia at higher dopaminergic states?
+• low dopaminergic states permitted pain, dystonia, shuffling or abnormal loading;
+• an intermediate therapeutic state improved pain and movement; and
+• higher states produced dyskinesia?
 
-How far may that finding legitimately strengthen the earlier evidence of medication-state sensitivity without assuming that Sinemet CR would necessarily have worked at every earlier stage or that one identical pain generator existed throughout the entire history?
+How far does that later treatment-state experiment legitimately strengthen the significance of the 2022 morning pattern, the later-2023 OFF evidence and the earlier procyclidine withdrawal findings?
+
+And what must remain unproven — including the exact pain generator, the proposition that all historical foot pain shared one mechanism, and the counterfactual claim that Sinemet CR would necessarily have produced the same benefit if introduced years earlier?
 
 
 OVERARCHING EXPERT QUESTION
 
-Did the clinical management adequately recognise and continually re-test the possibility that the patient’s longstanding lower-limb/foot syndrome was an early, dystonic and treatment-sensitive expression of his young-onset parkinsonian disorder — particularly once the phenotype strongly suggested PRKN, lower-limb dystonia was documented, procyclidine withdrawal altered the feet, a movement-disorders specialist independently suspected PARK2, and subsequent levodopa treatment produced evidence of both peak dyskinesia and trough-related pain/OFF phenomena?
+Did neurological management adequately preserve, integrate and re-test clinically meaningful patient-specific evidence as the case evolved, or did some findings have only local treatment force without becoming durable components of the longitudinal explanatory and treatment model?
+
+In particular, after a longstanding lower-limb/foot syndrome had shown dystonic features and neurological medication-state sensitivity, did management adequately integrate that evidence with the suspected PRKN phenotype, the later removal of procyclidine, the substitution of intermittent levodopa, emerging morning/OFF phenomena, pregabalin response, dyskinesia sensitivity and the eventual profound response to overnight controlled-release levodopa?
 
 
-CENTRAL TREATMENT-STRATEGY HINGE
+TRUE TREATMENT HINGE
 
-When procyclidine was withdrawn and replaced by immediate-release Sinemet in 2021, was the replacement regimen ever demonstrated to reproduce the foot-specific benefit/control of the previous medication state?
+When procyclidine was withdrawn and replaced by immediate-release Sinemet in 2021, was the replacement ever demonstrated to reproduce the foot-specific control associated with the previous medication state?
 
-If not, when did the subsequent morning pain, medication-state fluctuations, OFF-related pain/shuffling and eventual profound response to overnight Sinemet CR make it necessary to reconsider whether the replacement regimen itself was providing adequate temporal control of the known medication-sensitive lower-limb syndrome?
+If not, when did the subsequent evidence make it necessary to test whether the replacement regimen itself — its dose, timing, consistency, formulation and overnight coverage — was contributing to recurrent expression of a known medication-sensitive lower-limb syndrome?
 
 
-CLINICAL-REASONING / GOVERNANCE QUESTION
+EVIDENTIAL-GOVERNANCE HINGE
 
-Was the management strategy sufficiently responsive to new patient-specific evidence, or were important findings — including the dystonic lower-limb phenotype, the procyclidine treatment/withdrawal signal, the specific PRKN hypothesis, the specialist PARK2 opinion, later OFF-related pain and the response to overnight levodopa coverage — acknowledged individually without being fully integrated into and allowed to revise the governing diagnostic and treatment model?
+Why did patient-specific adverse-effect evidence remain visibly active and repeatedly influence later treatment decisions, while the earlier patient-specific evidence that the feet themselves changed with neurological medication state was not visibly carried forward with comparable consistency?
+
+Was that difference clinically appropriate, and if so, why?

@@ -257,3 +257,12 @@ Was that asymmetry clinically appropriate?
 If so, why?
 
 If not, at what point should the earlier benefit/modifiability evidence have been restored to equal standing with the adverse-effect evidence in the risk-benefit model?
+
+LONGITUDINAL MANAGEMENT QUESTION
+From 2017 to 2025, was the policy of prolonged dopaminergic restraint repeatedly re-evaluated against accumulating patient-specific evidence of both treatment benefit and treatment risk, or did the original policy continue to govern after the evidential circumstances had materially changed?
+
+MISSED-INFORMATION QUESTION
+Once the longstanding lower-limb/foot syndrome had demonstrated dystonic features and neurological medication-state sensitivity in a patient already suspected of having PRKN/PARK2, should a carefully observed dopaminergic trial have been considered not only as treatment but as a means of testing whether the foot syndrome itself varied with dopaminergic state? If so, what management-relevant information may have been forgone by not performing such a test?
+
+MODEL-REVISION QUESTION
+Was the management plan treated as a hypothesis that accumulating patient-specific evidence was permitted to revise, or as a governing framework within which new findings were accommodated without materially reopening the underlying diagnostic and therapeutic assumptions?

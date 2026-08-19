@@ -1,10 +1,65 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#f5f3ee">
-  <title>Clinical Record — Publication</title>
-  <meta name="description" content="A structured publication view of the longitudinal clinical record and supporting evidential documents.">
-  <style>
-    :root{--paper:#f5f3ee;--sheet:#fffdfa;--ink:#222523
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4f1ea">
+<title>Clinical Record</title>
+<meta name="description" content="Publication view of the longitudinal clinical record and supporting evidential documents.">
+<style>
+:root{--bg:#f4f1ea;--paper:#fffdf8;--ink:#202422;--muted:#6a706c;--line:#d9d7cf;--accent:#315f55;--accent-soft:#e9f0ed;--max:780px;--shadow:0 12px 34px rgba(34,38,35,.07)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.68 ui-serif,Georgia,Cambria,"Times New Roman",serif;-webkit-font-smoothing:antialiased}a{color:var(--accent);text-decoration-thickness:.08em;text-underline-offset:.18em}button,select{font:inherit}.topbar{position:sticky;top:0;z-index:20;background:rgba(244,241,234,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.topbar-inner{max-width:1100px;margin:auto;padding:.65rem max(1rem,env(safe-area-inset-left));display:flex;align-items:center;gap:.7rem}.brand{font-family:ui-sans-serif,system-ui,sans-serif;font-size:.86rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);text-decoration:none;white-space:nowrap}.doc-select{min-width:0;flex:1;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:.52rem .8rem;font-family:ui-sans-serif,system-ui,sans-serif;font-size:.88rem}.shell{max-width:1100px;margin:auto;padding:clamp(1rem,3vw,2.5rem)}.hero{max-width:var(--max);margin:clamp(2rem,7vw,5rem) auto 2rem}.eyebrow{font:700 .75rem/1.2 ui-sans-serif,system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}h1,h2,h3,h4{font-family:ui-serif,Georgia,serif;line-height:1.2;letter-spacing:-.018em;scroll-margin-top:5rem}h1{font-size:clamp(2.45rem,8vw,4.8rem);margin:.35rem 0 1rem}h2{font-size:clamp(1.6rem,5vw,2.25rem);margin:2.8rem 0 .8rem}h3{font-size:1.3rem;margin:2.2rem 0 .6rem}.intro{font-size:clamp(1.08rem,2vw,1.27rem);color:#414744}.reading-order{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.8rem;margin-top:2rem}.card{display:block;border:1px solid var(--line);border-radius:16px;background:rgba(255,253,248,.72);padding:1rem 1.05rem;text-decoration:none;color:var(--ink);transition:transform .16s ease,border-color .16s ease,background .16s ease}.card:hover{transform:translateY(-2px);border-color:#b8c3be;background:var(--paper)}.card b{display:block;font-family:ui-sans-serif,system-ui,sans-serif;font-size:.92rem}.card span{display:block;color:var(--muted);font-size:.88rem;line-height:1.45;margin-top:.28rem}.reader{max-width:var(--max);margin:0 auto 4rem;background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:clamp(1.05rem,4.5vw,3.7rem);overflow:hidden}.reader.loading{min-height:45vh}.reader p,.reader li{max-width:72ch}.reader ul,.reader ol{padding-left:1.35rem}.reader blockquote{margin:1.6rem 0;padding:.9rem 1rem;border-left:3px solid var(--accent);background:var(--accent-soft);border-radius:0 10px 10px 0}.reader code{font:.88em/1.5 ui-monospace,SFMono-Regular,Consolas,monospace;background:#f0eee8;border-radius:5px;padding:.08em .28em}.reader pre{overflow:auto;padding:1rem;background:#252a27;color:#f7f7f3;border-radius:12px}.reader pre code{background:none;padding:0}.reader hr{border:0;border-top:1px solid var(--line);margin:2.5rem 0}.reader table{display:block;width:100%;overflow-x:auto;border-collapse:collapse;font-family:ui-sans-serif,system-ui,sans-serif;font-size:.9rem;margin:1.5rem 0}.reader th,.reader td{border:1px solid var(--line);padding:.6rem .7rem;text-align:left;vertical-align:top}.reader th{background:#f4f2ec}.reader img{max-width:100%;height:auto}.doc-meta{font:600 .78rem/1.3 ui-sans-serif,system-ui,sans-serif;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:2rem}.pager{max-width:var(--max);margin:0 auto 5rem;display:grid;grid-template-columns:1fr 1fr;gap:.8rem}.pager button{border:1px solid var(--line);background:var(--paper);color:var(--ink);padding:.8rem 1rem;border-radius:12px;cursor:pointer}.pager button:disabled{opacity:.4;cursor:default}.pager .next{text-align:right}.hint{max-width:var(--max);margin:0 auto 1rem;color:var(--muted);font:500 .78rem/1.4 ui-sans-serif,system-ui,sans-serif;text-align:center}.error{padding:1rem;border:1px solid #d7b3ae;background:#fff5f3;border-radius:10px;color:#6f3029}@media(max-width:640px){body{font-size:16.5px;line-height:1.65}.topbar-inner{padding-top:max(.55rem,env(safe-area-inset-top));}.brand{font-size:.72rem}.shell{padding:1rem}.hero{margin:2.6rem auto 1.5rem}.reader{border-radius:14px;padding:1.15rem}.pager{margin-bottom:calc(2rem + env(safe-area-inset-bottom))}.hint{display:block}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.card{transition:none}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="topbar-inner"><a class="brand" href="./">Clinical Record</a><select id="docSelect" class="doc-select" aria-label="Choose document"></select></div></header>
+<main class="shell">
+<section id="home" class="hero">
+<div class="eyebrow">Longitudinal evidence publication</div>
+<h1>Clinical record</h1>
+<p class="intro">A calm reading interface for the principal synthesis, evidential registers and source record. Markdown remains the source; this page provides a consistent publication layer on top.</p>
+<div id="cards" class="reading-order"></div>
+</section>
+<article id="reader" class="reader" hidden></article>
+<p id="hint" class="hint" hidden>Swipe left or right on the document to move between principal sections.</p>
+<nav id="pager" class="pager" hidden aria-label="Document navigation"><button id="prevBtn">← Previous</button><button id="nextBtn" class="next">Next →</button></nav>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+const docs=[
+ {id:'summary',title:'Executive synthesis',file:'README.md',desc:'Clinical reading and overall opinion.'},
+ {id:'propositions',title:'Propositions',file:'propositions.md',desc:'Material propositions requiring testing.'},
+ {id:'facts',title:'Facts',file:'facts.md',desc:'Documentary facts anchored to the complete record.'},
+ {id:'decisions',title:'Decision points',file:'DECISION-POINTS.md',desc:'Material choices and re-evaluation opportunities.'},
+ {id:'tensions',title:'Tensions',file:'TENSIONS.md',desc:'Questions created by competing or coexisting evidence.'},
+ {id:'specialist',title:'Specialist input',file:'SPECIALIST-INPUT.md',desc:'Questions and evidence for specialist review.'},
+ {id:'referral',title:'Referral / escalation',file:'REFERRAL-SPECIALIST-ESCALATION.md',desc:'Specialist escalation material.'},
+ {id:'findings',title:'Findings register',file:'RECORD-FINDINGS-REGISTER.md',desc:'Detailed findings register; large reference document.'},
+ {id:'record',title:'Complete record',file:'complete-record.md',desc:'Underlying longitudinal source record; large reference document.'},
+ {id:'quotes',title:'Quotes',file:'quotes.md',desc:'Selected quotations and source extracts.'},
+ {id:'expert',title:'Expert',file:'expert.md',desc:'Expert-oriented material.'},
+ {id:'timelines',title:'Timelines',file:'TIMELINES.html',desc:'Existing timeline view.',html:true}
+];
+const principal=['summary','propositions','facts','decisions','tensions','specialist','referral'];
+const select=document.getElementById('docSelect'),cards=document.getElementById('cards'),reader=document.getElementById('reader'),home=document.getElementById('home'),pager=document.getElementById('pager'),hint=document.getElementById('hint'),prevBtn=document.getElementById('prevBtn'),nextBtn=document.getElementById('nextBtn');
+select.innerHTML='<option value="">Contents</option>'+docs.map(d=>`<option value="${d.id}">${d.title}</option>`).join('');
+cards.innerHTML=docs.slice(0,7).map(d=>`<a class="card" href="#/${d.id}"><b>${d.title}</b><span>${d.desc}</span></a>`).join('');
+marked.setOptions({gfm:true,breaks:false});
+function slug(s){return s.toLowerCase().trim().replace(/<[^>]*>/g,'').replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').replace(/-+/g,'-')}
+const renderer=new marked.Renderer(); renderer.heading=function({tokens,depth}){const text=this.parser.parseInline(tokens),id=slug(text);return `<h${depth} id="${id}">${text}</h${depth}>`};
+async function showDoc(id,push=false){const d=docs.find(x=>x.id===id);if(!d){showHome();return} if(d.html){location.href=d.file;return} home.hidden=true;reader.hidden=false;pager.hidden=false;hint.hidden=!principal.includes(id);reader.classList.add('loading');reader.innerHTML='<p class="doc-meta">Loading '+d.title+'…</p>';select.value=id;
+ try{const r=await fetch(d.file,{cache:'no-cache'});if(!r.ok)throw new Error(r.status+' '+r.statusText);const md=await r.text();reader.innerHTML=`<div class="doc-meta">${d.title}</div>`+marked.parse(md,{renderer});reader.classList.remove('loading');wireLinks();setPager(id);if(push)history.pushState({id},'',`#/${id}`);requestAnimationFrame(()=>{const anchor=decodeURIComponent(location.hash.split('?anchor=')[1]||'');if(anchor){document.getElementById(anchor)?.scrollIntoView()}else scrollTo({top:0,behavior:'instant'})});}
+ catch(e){reader.innerHTML=`<div class="error"><strong>Unable to load this document.</strong><br>${e.message}</div>`;reader.classList.remove('loading')}
+}
+function wireLinks(){reader.querySelectorAll('a[href]').forEach(a=>{const href=a.getAttribute('href');if(href?.endsWith('.md')){const d=docs.find(x=>x.file===href||x.file===href.replace(/^\.\//,''));if(d){a.href='#/'+d.id}}})}
+function setPager(id){const i=principal.indexOf(id),prev=docs.find(d=>d.id===principal[i-1]),next=docs.find(d=>d.id===principal[i+1]);prevBtn.disabled=!prev;nextBtn.disabled=!next;prevBtn.textContent=prev?'← '+prev.title:'← Previous';nextBtn.textContent=next?next.title+' →':'Next →';prevBtn.onclick=()=>prev&&navigate(prev.id);nextBtn.onclick=()=>next&&navigate(next.id)}
+function navigate(id){location.hash='/'+id}
+function showHome(){home.hidden=false;reader.hidden=true;pager.hidden=true;hint.hidden=true;select.value='';document.title='Clinical Record';}
+function route(){const id=location.hash.match(/^#\/([^?]+)/)?.[1];id?showDoc(id):showHome()}
+select.addEventListener('change',()=>select.value?navigate(select.value):location.hash='');window.addEventListener('hashchange',route);
+let sx=0,sy=0;reader.addEventListener('touchstart',e=>{if(e.touches.length===1){sx=e.touches[0].clientX;sy=e.touches[0].clientY}},{passive:true});reader.addEventListener('touchend',e=>{const x=e.changedTouches[0]?.clientX,y=e.changedTouches[0]?.clientY,dx=x-sx,dy=y-sy;if(Math.abs(dx)>70&&Math.abs(dx)>Math.abs(dy)*1.4){const id=location.hash.match(/^#\/([^?]+)/)?.[1],i=principal.indexOf(id);if(i>=0){if(dx<0&&principal[i+1])navigate(principal[i+1]);if(dx>0&&principal[i-1])navigate(principal[i-1])}}},{passive:true});
+window.addEventListener('keydown',e=>{if(e.altKey||e.metaKey||e.ctrlKey)return;const id=location.hash.match(/^#\/([^?]+)/)?.[1],i=principal.indexOf(id);if(e.key==='ArrowLeft'&&principal[i-1])navigate(principal[i-1]);if(e.key==='ArrowRight'&&principal[i+1])navigate(principal[i+1])});
+route();
+</script>
+</body>
+</html>

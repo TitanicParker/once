@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clinical Timeline Explorer</title>
+<style>
+:root {
+  --bg:#f6f7f8; --panel:#fff; --ink:#17191c; --muted:#6c727a; --line:#d8dde3; --accent:#2f5f87;
+  --soft:#eef3f7;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{position:sticky;top:0;z-index:10;background:rgba(246,247,248,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:16px 20px}
+h1{margin:0 0 4px;font-size:24px} .sub{color:var(--muted);font-size:13px}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+button,select,input{font:inherit;border:1px solid var(--line);background:var(--panel);border-radius:8px;padding:8px 10px}
+button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+main{max-width:1200px;margin:auto;padding:20px}
+.toolbar{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin-bottom:16px}
+.timeline{position:relative;margin-left:8px;padding-left:28px}
+.timeline:before{content:"";position:absolute;left:8px;top:0;bottom:0;width:2px;background:var(--line)}
+.event{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:0 0 12px}
+.event:before{content:"";position:absolute;left:-25px;top:22px;width:12px;height:12px;border-radius:50%;background:var(--accent);border:3px solid var(--bg)}
+.meta{display:flex;gap:10px;flex-wrap:wrap;align-items:center;color:var(--muted);font-size:12px;margin-bottom:5px}
+.event h3{font-size:16px;margin:0 0 6px}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:10px}
+.tag{font-size:11px;background:var(--soft);padding:3px 6px;border-radius:999px}
+.anchor{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.compare .lane{min-width:0}
+.lane h2{font-size:15px;margin:0 0 10px;padding:8px 10px;background:var(--soft);border-radius:8px}
+.empty{color:var(--muted);padding:30px;text-align:center}
+details{margin-top:8px} summary{cursor:pointer;color:var(--accent)}
+@media(max-width:800px){.compare{grid-template-columns:1fr} .toolbar{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <h1>Clinical Timeline Explorer</h1>
+  <div class="sub">One canonical timeline · multiple views · exact CLIN anchors · comparison mode</div>
+  <div class="controls" id="viewButtons"></div>
+</header>
+<main>
+  <div class="toolbar">
+    <input id="search" placeholder="Search events, tags, propositions or CLIN anchors…">
+    <select id="mode">
+      <option value="single">Single view</option>
+      <option value="compare">Compare two views</option>
+    </select>
+  </div>
+  <div id="compareControls" class="controls" style="display:none;margin-bottom:16px"></div>
+  <div id="app"></div>
+</main>
+<script>
+const EVENTS = [{"id": "TL-001", "date": "2017-04-10", "label": "GP records bilateral foot pain, abnormal gait and structural foot abnormalities", "summary": "Abnormal gait and bilateral foot pain; marked mallet toes, onychogryphosis and callouses/pressure areas; Podiatry referral planned.", "anchors": ["CLIN-000018–CLIN-000026"], "tags": ["phenotype", "feet", "structural", "podiatry"], "views": ["master", "phenotype", "feet", "management"], "props": ["P01", "P03"]}, {"id": "TL-002", "date": "2017-06-08", "label": "GP links movement initiation, gait, feet and muscle tension", "summary": "Difficulty initiating walking from sitting; GP considers Neurology opinion for gait, feet and muscle-tension issues.", "anchors": ["CLIN-000064–CLIN-000074"], "tags": ["phenotype", "feet", "neurology-referral"], "views": ["master", "phenotype", "feet", "specialist"], "props": ["P01", "P02"]}, {"id": "TL-003", "date": "2017-06-29", "label": "Urgent referral describes integrated neurological and lower-limb phenotype", "summary": "Festinant/stiff gait, bilateral foot issues, increased tone, brisk reflexes, toe clawing, inability to relax, dexterity decline and functional deterioration.", "anchors": ["CLIN-000847–CLIN-000884"], "tags": ["phenotype", "feet", "referral", "decision-point"], "views": ["master", "phenotype", "feet", "management", "specialist"], "props": ["P01", "P02", "P04"]}, {"id": "TL-004", "date": "2017-07-03", "label": "Neurology documents strikingly abnormal gait and dystonic-looking posture", "summary": "Markedly increased tone, minimal tremor, strikingly abnormal gait, foot-drop-like appearance suggestive of dystonic posture — NOT FOOT DROP, absent arm swing, lead-pipe rigidity and gross bradykinesia.", "anchors": ["CLIN-001084–CLIN-001120"], "tags": ["phenotype", "dystonia", "feet", "neurology"], "views": ["master", "phenotype", "feet"], "props": ["P01", "P02", "P03"]}, {"id": "TL-005", "date": "2017-07-03", "label": "Foot/leg relationship left 'Not clear'", "summary": "Neurology records that corns, callouses and burning may be separate or perhaps secondary neuropathy; relationship remains 'Not clear'.", "anchors": ["CLIN-001142–CLIN-001149"], "tags": ["feet", "pain", "uncertainty", "model"], "views": ["master", "feet", "pain", "evidence"], "props": ["P03", "P06"]}, {"id": "TL-006", "date": "2017-07-03", "label": "Dopaminergic restraint adopted because of very young onset and risk", "summary": "Neurology plans to avoid levodopa/dopamine agonists for as long as possible because of concern about dyskinesia and impulse-control effects.", "anchors": ["CLIN-001166–CLIN-001180"], "tags": ["treatment-strategy", "risk", "decision-point"], "views": ["master", "treatment", "risk", "management"], "props": ["P07", "P20"]}, {"id": "TL-007", "date": "2017-07-03", "label": "PRKN/PARK2 hypothesis and limits of expertise recorded", "summary": "Very young onset, akinetic rigidity, symmetry, preserved cognition and no dominant family history raise PARK2/PRKN; clinician states he is not a movement-disorders neurologist.", "anchors": ["CLIN-001493–CLIN-001560"], "tags": ["genetics", "specialist", "phenotype", "decision-point"], "views": ["master", "phenotype", "specialist", "management"], "props": ["P04", "P22"]}, {"id": "TL-008", "date": "2017-09-12", "label": "Prof Healy: 'probably has Park II'", "summary": "Healy recommends PARK2 testing, notes dramatic motor response to procyclidine/rasagiline, describes low-dose dopamine replacement benefit with dyskinesia risk, and remains available to review.", "anchors": ["CLIN-001742–CLIN-001749"], "tags": ["specialist", "genetics", "treatment", "risk"], "views": ["master", "specialist", "treatment", "risk", "management"], "props": ["P04", "P07", "P22"]}, {"id": "TL-009", "date": "2017-10-04", "label": "Procyclidine withdrawal produces deterioration including the feet", "summary": "Four days into the planned break: tension building, feet restless, walk falling apart; eyesight back to normal.", "anchors": ["CLIN-001770–CLIN-001790"], "tags": ["medication-state", "feet", "benefit", "risk", "natural-experiment"], "views": ["master", "feet", "medication", "risk", "evidence"], "props": ["P05", "P06"]}, {"id": "TL-010", "date": "2017-10-24", "label": "Lower reintroduced procyclidine dose does not control all symptoms", "summary": "After visual toxicity forced withdrawal/reduction, lower dose failed to cover all symptoms; dose was increased again.", "anchors": ["CLIN-001826–CLIN-001834"], "tags": ["medication-state", "benefit", "risk", "treatment"], "views": ["master", "medication", "risk", "treatment"], "props": ["P05", "P07"]}, {"id": "TL-011", "date": "2018-04-24", "label": "Clinician records rapid return of outside-left-foot phenomenon off procyclidine", "summary": "The first thing noticed changing rapidly during withdrawal was return of the outside-left-foot/corn phenomenon; patient was more shifty and unrelaxed off procyclidine.", "anchors": ["CLIN-001913–CLIN-001919"], "tags": ["feet", "medication-state", "natural-experiment", "decision-point"], "views": ["master", "feet", "medication", "evidence", "management"], "props": ["P05", "P06", "P07", "P08"]}, {"id": "TL-012", "date": "2018-04-24", "label": "Neurologist says levodopa could make patient 'very much better' but maintains restraint", "summary": "Potential benefit is acknowledged, but the prior reasons for avoiding levodopa/dopamine agonists remain governing.", "anchors": ["CLIN-001943–CLIN-001956"], "tags": ["treatment-strategy", "decision-point", "benefit", "risk"], "views": ["master", "treatment", "risk", "management", "evidence"], "props": ["P07", "P08", "P20"]}, {"id": "TL-013", "date": "2019-02-28", "label": "Neupro reveals narrow benefit–risk window", "summary": "Higher doses produce chorea/dyskinesia and behavioural/impulsivity concerns; lower dose preferred but felt insufficient. Neurologist describes an extremely difficult 'tight rope'.", "anchors": ["CLIN-002114–CLIN-002158"], "tags": ["risk", "benefit", "dyskinesia", "treatment-window"], "views": ["master", "risk", "treatment", "management"], "props": ["P14", "P20", "P21"]}, {"id": "TL-014", "date": "2021-09-01", "label": "First levodopa introduced because patient felt undertreated", "summary": "Sinemet 62.5 mg twice daily introduced as the first levodopa drug.", "anchors": ["CLIN-002330–CLIN-002335"], "tags": ["levodopa", "treatment", "decision-point"], "views": ["master", "treatment", "management"], "props": ["P07", "P09"]}, {"id": "TL-015", "date": "2021-10-27", "label": "Procyclidine removed; Sinemet substituted", "summary": "Kemadrin removed because of ocular pressure concerns and Sinemet increased; expectation recorded that Sinemet would 'more than compensate'.", "anchors": ["CLIN-002336–CLIN-002338"], "tags": ["substitution", "treatment", "risk", "decision-point", "feet-question"], "views": ["master", "treatment", "risk", "management", "evidence"], "props": ["P09", "P10"]}, {"id": "TL-016", "date": "2022-01-01", "label": "Morning feet take 20–25 minutes to 'warm up'", "summary": "Most mornings the feet take 20–25 minutes to warm up; Sinemet is optional/flexible and adjusted to expected demand.", "anchors": ["CLIN-002375–CLIN-002386"], "tags": ["feet", "timing", "medication-state", "distribution"], "views": ["master", "feet", "medication", "treatment", "evidence"], "props": ["P10", "P13", "P14"]}, {"id": "TL-017", "date": "2023-03-28", "label": "Severe bilateral pain despite pregabalin; ten-day withdrawal report", "summary": "Debilitating bilateral foot/leg pain despite pregabalin 600 mg/day; patient reports ten days off Parkinson medication with no perceived difference from a Parkinson's perspective.", "anchors": ["CLIN-002677–CLIN-002684"], "tags": ["pain", "pregabalin", "counterevidence", "medication-state"], "views": ["master", "pain", "medication", "evidence"], "props": ["P11", "P15", "P16"]}, {"id": "TL-018", "date": "2023-09-01", "label": "Later 2023: pain and shuffling classified as OFF-related", "summary": "Worse in morning and later day if Sinemet not taken; clinician concludes undertreatment and OFF-related leg pain/shuffling.", "anchors": ["CLIN-002573–CLIN-002581"], "tags": ["off", "pain", "shuffling", "medication-state", "decision-point"], "views": ["master", "pain", "medication", "treatment", "evidence", "management"], "props": ["P13", "P15", "P16"]}, {"id": "TL-019", "date": "2023-11-01", "label": "Evening protective stance and short steps interpreted as OFF Parkinsonian symptoms", "summary": "Patient describes protective stance, lack of movement and short steps; Stalevo used for 'Pep in the Step' and 'for pain'.", "anchors": ["CLIN-002455–CLIN-002470"], "tags": ["off", "pain", "function", "medication-state"], "views": ["master", "pain", "medication", "treatment", "evidence"], "props": ["P13", "P15", "P16"]}, {"id": "TL-020", "date": "2024-01-01", "label": "Pregabalin reduces pain while toe curling persists", "summary": "Lyrica removes much of the foot pain, but toe curling/clawing and activity-related functional limitations remain.", "anchors": ["CLIN-002698–CLIN-002704"], "tags": ["pain", "pregabalin", "dystonia", "feet"], "views": ["master", "pain", "feet", "evidence"], "props": ["P11", "P12", "P13"]}, {"id": "TL-021", "date": "2025-01-01", "label": "Severe morning foot pain improves once Parkinson medication takes effect", "summary": "Morning 'murder in the feet'; first ~150 footsteps torture; relief occurs once Parkinson medication hits the system.", "anchors": ["CLIN-002777–CLIN-002780"], "tags": ["feet", "pain", "morning", "medication-state"], "views": ["master", "feet", "pain", "medication", "evidence"], "props": ["P17", "P18"]}, {"id": "TL-022", "date": "2025-01-01", "label": "Overnight medication gap identified and Sinemet CR introduced", "summary": "Last Sinemet about 8 PM, bed about 1 AM, wake about 08:45; Sinemet CR introduced near bedtime to extend overnight coverage.", "anchors": ["CLIN-002794–CLIN-002800"], "tags": ["coverage", "timing", "treatment", "decision-point", "overnight"], "views": ["master", "medication", "treatment", "management", "evidence"], "props": ["P13", "P17"]}, {"id": "TL-023", "date": "2025-03-25", "label": "Later account records 'profound relief' from Sinemet CR", "summary": "Complaint response states Sinemet CR provided profound relief and that Sinemet had been known to help ongoing pain.", "anchors": ["CLIN-003263–CLIN-003269"], "tags": ["retrospective", "pain", "medication-state", "coverage"], "views": ["master", "pain", "medication", "retrospective", "evidence"], "props": ["P16", "P17", "P18", "P21"]}, {"id": "TL-024", "date": "2026-02-04", "label": "PRKN genetically confirmed", "summary": "Two pathogenic Parkin variants confirmed; parkinsonism and dystonia attributed to compound heterozygous Parkin mutations.", "anchors": ["CLIN-003224–CLIN-003229"], "tags": ["genetics", "confirmation", "retrospective-context"], "views": ["master", "phenotype", "specialist", "retrospective"], "props": ["P04", "P18", "P22"]}];
+const VIEWS = [
+  ["master","Whole timeline"],
+  ["phenotype","Phenotype / diagnosis"],
+  ["feet","Foot / lower-limb syndrome"],
+  ["treatment","Treatment strategy"],
+  ["medication","Medication-state evidence"],
+  ["risk","Treatment risk"],
+  ["pain","Pain mechanism / modulation"],
+  ["specialist","Specialist input"],
+  ["management","Management / decision points"],
+  ["evidence","Evidence carry-forward"],
+  ["retrospective","Contemporary vs retrospective"]
+];
+let current="master", left="feet", right="medication";
+
+const app=document.getElementById("app");
+const buttons=document.getElementById("viewButtons");
+const search=document.getElementById("search");
+const mode=document.getElementById("mode");
+const compareControls=document.getElementById("compareControls");
+
+function fmtDate(d){
+  const [y,m,day]=d.split("-"); 
+  if(m==="01"&&day==="01") return y;
+  return new Date(d+"T00:00:00").toLocaleDateString("en-IE",{year:"numeric",month:"short",day:"numeric"});
+}
+function matches(e, view, q){
+  const v = view==="master" || e.views.includes(view);
+  if(!v) return false;
+  if(!q) return true;
+  q=q.toLowerCase();
+  return JSON.stringify(e).toLowerCase().includes(q);
+}
+function card(e){
+  return `<article class="event">
+    <div class="meta"><strong>${fmtDate(e.date)}</strong><span>${e.id}</span><span>${e.props.join(", ")}</span></div>
+    <h3>${e.label}</h3>
+    <div>${e.summary}</div>
+    <details><summary>Source anchors</summary><div class="anchor">${e.anchors.join("<br>")}</div></details>
+    <div class="tags">${e.tags.map(t=>`<span class="tag">${t}</span>`).join("")}</div>
+  </article>`;
+}
+function renderLane(view){
+  const q=search.value.trim();
+  const arr=EVENTS.filter(e=>matches(e,view,q)).sort((a,b)=>a.date.localeCompare(b.date)||a.id.localeCompare(b.id));
+  return arr.length?`<div class="timeline">${arr.map(card).join("")}</div>`:`<div class="empty">No matching events.</div>`;
+}
+function render(){
+  [...buttons.querySelectorAll("button")].forEach(b=>b.classList.toggle("active",b.dataset.view===current && mode.value==="single"));
+  if(mode.value==="single"){
+    compareControls.style.display="none";
+    app.innerHTML=renderLane(current);
+  } else {
+    compareControls.style.display="flex";
+    app.innerHTML=`<div class="compare">
+      <section class="lane"><h2>${VIEWS.find(v=>v[0]===left)[1]}</h2>${renderLane(left)}</section>
+      <section class="lane"><h2>${VIEWS.find(v=>v[0]===right)[1]}</h2>${renderLane(right)}</section>
+    </div>`;
+  }
+}
+VIEWS.forEach(([id,label])=>{
+  const b=document.createElement("button"); b.textContent=label; b.dataset.view=id;
+  b.onclick=()=>{current=id;mode.value="single";render();};
+  buttons.appendChild(b);
+});
+function selectView(value,onchange){
+  const s=document.createElement("select");
+  VIEWS.filter(v=>v[0]!=="master").forEach(([id,label])=>{const o=document.createElement("option");o.value=id;o.textContent=label;s.appendChild(o)});
+  s.value=value;s.onchange=()=>onchange(s.value);return s;
+}
+compareControls.append("Left:",selectView(left,v=>{left=v;render()}),"Right:",selectView(right,v=>{right=v;render()}));
+search.addEventListener("input",render);
+mode.addEventListener("change",render);
+render();
+</script>
+</body>
+</html>

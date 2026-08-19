@@ -1,577 +1,501 @@
-# FACTS
+FACTS
 
-## Purpose
+Purpose
 
-This register contains documentary facts relevant to the propositions raised by the final movement-disorders expert questions.
+This register contains documentary facts from complete-record-updated-2023-referral.md that are relevant to the current movement-disorders propositions.
 
-A fact in this register records what the contemporaneous or later documentary record states or records. It does not determine clinical significance, causation, standard of care, or what should have been done.
+Each fact is anchored to the exact CLIN- sentence range in the complete record. The register does not decide causation, negligence, standard of care, or what treatment should have been given. Those remain propositions, tensions, decision-point questions, or matters for expert opinion.
 
----
+A. PRESENTATION AND PRE-DIAGNOSTIC PHENOTYPE
 
-## A. PRESENTATION AND PRE-DIAGNOSTIC PHENOTYPE
+F001 — Bilateral foot pain and abnormal gait were documented before neurological diagnosis
 
-### F001 — Bilateral foot pain and abnormal gait pre-dated the neurological diagnosis
+On 10 April 2017 the GP recorded abnormal gait and bilateral foot pain.
 
-On 10 April 2017 the GP recorded bilateral foot pain and abnormal gait.
+Complete-record anchor: CLIN-000018–CLIN-000022
+Relevant propositions: P01, P03
 
-**Relevant propositions:** P01, P03
+F002 — Structural foot abnormalities were documented before neurological assessment
 
----
+The April 2017 GP examination recorded marked mallet toes, onychogryphosis and callouses/pressure areas.
 
-### F002 — Structural foot abnormalities were documented before neurological assessment
+Complete-record anchor: CLIN-000023–CLIN-000026
+Relevant propositions: P01, P03
 
-On 10 April 2017 the GP examination recorded mallet toes, onychogryphosis and callus/pressure areas.
+F003 — Podiatry referral was planned before neurological diagnosis
 
-**Relevant propositions:** P01, P03
+The April 2017 GP entry records a plan to refer to Podiatry.
 
----
+Complete-record anchor: CLIN-000024–CLIN-000026
+Relevant propositions: P01, P03
 
-### F003 — Podiatry referral preceded the neurological diagnosis
+F004 — Difficulty initiating movement was documented before specialist neurological assessment
 
-The GP planned referral to Podiatry in April 2017 because of the foot complaints and structural findings.
+On 8 June 2017 the GP recorded an issue with fluidity of initiation of movement, including starting to walk from sitting.
 
-**Relevant propositions:** P01, P03
+Complete-record anchor: CLIN-000064–CLIN-000074
+Relevant propositions: P01, P02
 
----
+F005 — The GP expressly linked gait, feet and muscle-tension issues in considering Neurology referral
 
-### F004 — Movement-initiation difficulty was documented before specialist neurological assessment
+The same 8 June 2017 entry records possible Neurology review of the patient's gait, feet and “muscle tension” issues.
 
-On 8 June 2017 the GP recorded difficulty with fluid initiation of movement, including difficulty starting to walk from sitting.
+Complete-record anchor: CLIN-000068–CLIN-000074
+Relevant propositions: P01, P02
 
-**Relevant propositions:** P01, P02
+F006 — Occupational Health independently shared concern about the gait
 
----
+On 12 June 2017 the GP recorded a phone call from Dr Cashman regarding the gait and stated that Dr Cashman echoed the GP's concerns.
 
-### F005 — The GP was considering the gait, feet and muscle-tension complaints together
+Complete-record anchor: CLIN-000100–CLIN-000105
+Relevant propositions: P01, P02
 
-On 8 June 2017 the GP recorded that a Neurology opinion might be required concerning the patient's gait, feet and "muscle tension" issues.
+F007 — Increased tone and brisk reflexes were documented before urgent referral
 
-**Relevant propositions:** P01, P02
+On 23 June 2017 the GP recorded marked increased tone in both legs and brisk reflexes in the upper limbs.
 
----
+Complete-record anchor: CLIN-000190–CLIN-000199
+Relevant propositions: P01, P02
 
-### F006 — Occupational Health independently expressed concern about the gait
+F008 — Functional deterioration had become occupationally disabling by 29 June 2017
 
-On 12 June 2017 the GP recorded a discussion with the Occupational Health doctor, who shared concern regarding the gait, following which Neurology referral was planned.
+The GP record states that the patient went to work but essentially could not perform the job because of worsening dexterity; urgent assessment was arranged.
 
-**Relevant propositions:** P01, P02
+Complete-record anchor: CLIN-000210–CLIN-000217
+Relevant propositions: P01, P02, P04
 
----
+F009 — The 29 June 2017 GP referral described an integrated foot/lower-limb/neurological presentation
 
-### F007 — The 29 June 2017 referral described a combined neurological and lower-limb presentation
+The GP referral described an unusual festinant and stiff gait in a patient attending with bilateral foot issues, followed by difficulty initiating movements, increased tone in upper and lower limbs, brisk reflexes, inability to relax, toe clawing, worsening dexterity and progressive functional impairment.
 
-The GP referral of 29 June 2017 documented:
+Complete-record anchor: CLIN-000847–CLIN-000881
+Relevant propositions: P01, P02, P04
 
-- bilateral foot problems;
-- abnormal/stiff or festinant gait;
-- difficulty initiating movement;
-- increased tone;
-- brisk reflexes;
-- possible cogwheeling;
-- toe clawing;
-- inability to relax;
-- worsening dexterity; and
-- progressive occupational/functional impairment.
+F010 — The GP referral expressly raised Parkinsonian or other neurological disease
 
-The referral asked for assessment of possible Parkinsonian or other underlying neurological disease.
+The referral stated that there were definite signs of increased tone with abnormal gait affecting employment and daily activities and queried “?parkinsonian or other underlying diagnosis”.
 
-**Relevant propositions:** P01, P02, P04
+Complete-record anchor: CLIN-000877–CLIN-000884
+Relevant propositions: P01, P02, P04
 
----
+B. EARLIEST NEUROLOGICAL FORMULATION
 
-## B. EARLIEST NEUROLOGICAL FORMULATION
+F011 — The neurological history recorded longstanding bodily and leg tension dating back approximately to 2004
 
-### F008 — Neurology documented a markedly abnormal lower-limb gait phenotype
+The discharge/consult note records a history of bodily tension, including needing to place the body into particular postures to obtain a sense of relief.
 
-The initial Neurology assessment described the gait as strikingly abnormal.
+Complete-record anchor: CLIN-000946–CLIN-000963
+Relevant propositions: P01, P02
 
-**Relevant propositions:** P01, P02
+F012 — The neurological history placed longstanding foot pathology after the earlier tension history
 
----
+The same history records later corns, calluses and fallen arches, with foot treatment dating back to 2009–2010.
 
-### F009 — The apparent foot-drop-like gait was specifically considered dystonic rather than foot drop
+Complete-record anchor: CLIN-000965–CLIN-000969
+Relevant propositions: P01, P03
 
-Neurology described the foot-drop-like appearance as suggestive of dystonic posture and expressly recorded:
+F013 — The neurological history recorded that foot pain and leg tension had behaved differently over time
 
-"NOT FOOT DROP."
+The record states that leaving bar work in 2012 reduced the foot pain while leg tension persisted, leading the patient to regard the foot pain and leg tension as different problems.
 
-**Relevant propositions:** P01, P02, P03
+Complete-record anchor: CLIN-000971–CLIN-000976
+Relevant propositions: P01, P03
 
----
+F014 — Neurology documented markedly increased and relatively symmetrical tone
 
-### F010 — Neurology documented a wider akinetic-rigid syndrome
+The examination recorded markedly symmetrically increased tone, with only limited asymmetry.
 
-The earliest neurological examination documented findings including:
+Complete-record anchor: CLIN-001084–CLIN-001090
+Relevant propositions: P02, P04
 
-- absent arm swing;
-- marked bilateral increased tone/lead-pipe rigidity;
-- axial rigidity;
-- gross bradykinesia;
-- brisk reflexes; and
-- very little tremor.
+F015 — The gait was described as strikingly abnormal and dystonic-looking
 
-**Relevant propositions:** P02, P04
+Neurology recorded that the gait was “strikingly abnormal” and that the apparent foot-drop appearance was somewhat suggestive of dystonic posture, expressly adding “NOT FOOT DROP”.
 
----
+Complete-record anchor: CLIN-001097–CLIN-001100
+Relevant propositions: P01, P02, P03
 
-### F011 — The neurological presentation was recognised as unusually young and atypical
+F016 — Neurology documented additional parkinsonian examination findings
 
-Neurology recognised very young-onset Parkinsonism and described the presentation as having atypical features.
+The examination documented absent arm swing, bilateral lead-pipe rigidity, axial rigidity, gross bradykinesia, brisk reflexes and very little tremor.
 
-**Relevant propositions:** P02, P04
+Complete-record anchor: CLIN-001085–CLIN-001115
+Relevant propositions: P02, P04
 
----
+F017 — Structural foot findings coexisted with the neurological examination findings
 
-### F012 — Neurology did not determine the relationship between the foot symptoms and Parkinsonism
+The same examination recorded pes planus and hammertoes.
 
-The neurological record stated that the relationship between the leg/foot symptoms — including corns, calluses and burning — and the neurological disorder was "Not clear".
+Complete-record anchor: CLIN-001119–CLIN-001120
+Relevant propositions: P01, P03
 
-Possible separation and possible peripheral neuropathy were considered.
+F018 — Neurology diagnosed young-onset Parkinsonism while retaining a broad differential
 
-**Relevant propositions:** P03, P06
+The impression recorded young-onset Parkinsonism/Parkinson's disease while also considering autosomal-recessive Parkinsonism and other Parkinson-plus or genetic/metabolic possibilities.
 
----
+Complete-record anchor: CLIN-001128–CLIN-001138
+Relevant propositions: P02, P04
 
-### F013 — Structural and neurological foot/lower-limb findings coexisted in the initial formulation
+F019 — The foot/leg relationship was expressly left unresolved
 
-The neurological assessment documented pes planus/hammertoe-type structural abnormalities while also documenting dystonic-looking lower-limb posture and marked neurological abnormalities.
+Neurology recorded that the leg symptoms including corns, callouses and burning might have been completely separate or possibly a secondary peripheral neuropathy and concluded “Not clear”.
 
-**Relevant propositions:** P01, P03
+Complete-record anchor: CLIN-001142–CLIN-001149
+Relevant propositions: P03, P06
 
----
+F020 — The complex-case formulation described likely idiopathic Parkinson's disease with atypical features
 
-## C. PRKN/PARK2 AND SPECIALIST EXPERTISE
+The plan records review at the Neurology complex-case meeting and “likely an IPD albeit with atypical features”.
 
-### F014 — PRKN/PARK2 was specifically considered in 2017
+Complete-record anchor: CLIN-001153–CLIN-001158
+Relevant propositions: P02, P04
 
-The treating neurologist expressly considered PARK2/PRKN because of features including very young onset, akinetic rigidity, symmetry, preserved cognition and lack of a dominant family history.
+C. PRKN/PARK2 AND SPECIALIST INPUT
 
-**Relevant propositions:** P04, P07
+F021 — PRKN/PARK2 was specifically raised in 2017
 
----
+The treating neurologist recorded that the very young onset, akinetic rigidity, lack of dominant family history, marked symmetry and preserved cognition raised the possibility of a PRKN/PARK2 disorder.
 
-### F015 — The treating neurologist identified limits in his own movement-disorders expertise
+Complete-record anchor: CLIN-001493–CLIN-001525
+Relevant propositions: P04, P07
 
-In discussing the suspected genetic Parkinsonian disorder, the treating neurologist recorded that he was not a movement-disorders neurologist.
+F022 — The neurologist recorded that genotype might inform understanding of levodopa sensitivities
 
-**Relevant propositions:** P04, P22
+The genetics discussion states that genetic diagnosis might assist prognostication and understanding of levodopa sensitivities.
 
----
+Complete-record anchor: CLIN-001546–CLIN-001553
+Relevant propositions: P04, P07, P22
 
-### F016 — The treating neurologist recognised that genotype might inform levodopa sensitivity
+F023 — The neurologist expressly stated that he was not a movement-disorders neurologist
 
-The 2017 record states that genetic information might assist understanding of levodopa sensitivities.
+The record states: “I am not an expert on these conditions (I am not a movement disorders neurologist)”.
 
-**Relevant propositions:** P04, P07, P22
+Complete-record anchor: CLIN-001554–CLIN-001560
+Relevant propositions: P04, P22
 
----
+F024 — A specialist second opinion was requested and levodopa deferral was specifically put to Prof Healy
 
-### F017 — Prof Daniel Healy independently considered PARK2 likely
+Dr Monaghan asked Prof Daniel Healy for genetic advice and a possible second opinion and wrote that he and “Tim” were keen to hold back on levodopa unless Healy advised otherwise.
 
-In September 2017 Prof Daniel Healy stated that the patient "probably has Park II" and recommended PARK2 testing.
+Complete-record anchor: CLIN-001712–CLIN-001733
+Relevant propositions: P04, P07, P22
 
-**Relevant propositions:** P04, P07, P22
+F025 — Prof Healy considered PARK2 likely
 
----
+On 12 September 2017 Prof Healy wrote that the patient “probably has Park II” and recommended testing it initially.
 
-### F018 — Prof Healy recognised marked treatment responsiveness
+Complete-record anchor: CLIN-001734–CLIN-001743
+Relevant propositions: P04, P07, P22
 
-Prof Healy referred to the dramatic motor improvement on low-dose procyclidine and rasagiline.
+F026 — Prof Healy recorded dramatic treatment responsiveness
 
-**Relevant propositions:** P04, P05, P07
+Healy recorded dramatic improvement in motor symptoms with low-dose procyclidine and rasagiline.
 
----
+Complete-record anchor: CLIN-001745
+Relevant propositions: P04, P05, P07
 
-### F019 — Prof Healy identified both potential treatment benefit and dyskinesia risk in PARK2
+F027 — Healy recorded both potential dopamine-replacement benefit and dyskinesia risk in PARK2
 
-Prof Healy recorded that PARK2 patients may do well for long periods on relatively low dopamine replacement but may become very dyskinetic if over-used.
+Healy wrote that PARK2 patients may manage well for long periods on relatively low doses of dopamine replacement therapy but can become quite dyskinetic if over-used.
 
-**Relevant propositions:** P04, P07, P14, P20
+Complete-record anchor: CLIN-001748
+Relevant propositions: P04, P07, P14, P20
 
----
+F028 — Healy remained willing to review again
 
-### F020 — Further specialist review remained available
+Healy stated that he had not arranged routine review but would be happy to see the patient again as required.
 
-Prof Healy indicated that he would be happy to review the patient again.
+Complete-record anchor: CLIN-001749
+Relevant propositions: P04, P22
 
-**Relevant propositions:** P04, P22
+D. ORIGINAL TREATMENT STRATEGY
 
----
+F029 — Dopamine replacement was deliberately deferred because of anticipated treatment risks
 
-## D. ORIGINAL DOPAMINERGIC-RESTRAINT STRATEGY
+The 2017 treatment plan recorded an intention to avoid levodopa/dopamine agonists for as long as possible because of very young onset, concern about rapid dyskinesia and susceptibility to impulse-control disorders.
 
-### F021 — Neurology adopted an explicitly cautious approach to dopamine replacement in 2017
+Complete-record anchor: CLIN-001166–CLIN-001180
+Relevant propositions: P07, P20
 
-Because of the patient's young age and concern about long-term complications including dyskinesia and behavioural effects, Neurology planned to delay levodopa/dopamine agonist treatment for as long as reasonably possible.
+F030 — Procyclidine was introduced slowly and included a planned “test stopping”
 
-**Relevant propositions:** P07, P20
+The initial procyclidine plan used slow titration and contemplated a later test stop if benefit was not obvious.
 
----
+Complete-record anchor: CLIN-001196–CLIN-001221
+Relevant propositions: P05, P07
 
-### F022 — The treating neurologist acknowledged possible benefit from levodopa
+F031 — The neurologist explicitly acknowledged the possibility of later regret about levodopa deferral
 
-The 2017 record states that the patient might do very well with levodopa and might potentially do so sustainably.
+The 2017 record states that the patient might do very well with levodopa, possibly sustainably, and that “in time to come — we may regret that we did not start this earlier”.
 
-**Relevant propositions:** P07, P08
+Complete-record anchor: CLIN-001601–CLIN-001607
+Relevant propositions: P07, P08, P20
 
----
+E. PROCYCLIDINE TREATMENT-STATE EVIDENCE
 
-### F023 — The treating neurologist expressly acknowledged a possible future cost of delay
+F032 — Procyclidine was associated with marked functional improvement
 
-The neurologist wrote that:
+The October 2017 contemporaneous email described restoration of walking, writing, posture, leg looseness and ordinary functional tasks and described the improvement as “living in a miracle”.
 
-"in time to come — we may regret that we did not start this earlier."
+Complete-record anchor: CLIN-001770–CLIN-001781
+Relevant propositions: P05, P07
 
-**Relevant propositions:** P07, P08, P20
+F033 — Withdrawal produced contemporaneous worsening that included the feet
 
----
+Four days into the Kemadrin/procyclidine break, the patient wrote that tension was building, the feet were restless and the walk was falling apart while eyesight had returned to normal.
 
-## E. PROCYCLIDINE TREATMENT-STATE EVIDENCE
+Complete-record anchor: CLIN-001782–CLIN-001790
+Relevant propositions: P05, P06
 
-### F024 — Procyclidine was associated with marked symptomatic improvement
+F034 — The lower restarted dose did not control all symptoms
 
-Contemporaneous records describe a major improvement in walking, posture, dexterity, leg function and general physical state while taking procyclidine.
+The 24 October 2017 HR email records that after withdrawal and reintroduction at a lower dose, the lower dose did not “tick off all of the symptoms” and the dose was being increased again.
 
-**Relevant propositions:** P05, P07
+Complete-record anchor: CLIN-001826–CLIN-001834
+Relevant propositions: P05, P07
 
----
+F035 — In 2018 the treating neurologist recorded a focal foot-specific change during the earlier withdrawal
 
-### F025 — Procyclidine was deliberately withdrawn as part of treatment management
+The April 2018 note records that when procyclidine had been stopped for two weeks, the first thing noticed changing rapidly was the return of the outside-left-foot/corn phenomenon.
 
-In 2017 procyclidine was stopped because of visual adverse effects and subsequently reintroduced at a lower dose.
+Complete-record anchor: CLIN-001913–CLIN-001919
+Relevant propositions: P05, P06
 
-**Relevant propositions:** P05, P20
+F036 — The 2018 note continued to document substantial relief of tension
 
----
+The same clinic note records that the relief from tension was “fantastic” and that walking without tension had become possible.
 
-### F026 — Neurological symptoms worsened during procyclidine withdrawal
+Complete-record anchor: CLIN-001890–CLIN-001904
+Relevant propositions: P05, P07
 
-During the planned withdrawal the patient contemporaneously reported:
+F037 — In 2018 the neurologist recorded that levodopa or another dopamine agonist could produce greater improvement but maintained the prior strategy
 
-- increasing tension;
-- restless feet; and
-- deterioration of gait.
+The impression states that the patient could be “very much better” if given levodopa or another dopamine agonist, but that for previously stated reasons Neurology did not want to do so for quite some time.
 
-**Relevant propositions:** P05, P06
+Complete-record anchor: CLIN-001943–CLIN-001946
+Relevant propositions: P07, P08, P20
 
----
+F. TREATMENT-RISK EVIDENCE
 
-### F027 — The lower dose did not reproduce full previous symptom control
+F038 — Higher-dose Neupro was associated with dyskinesia/chorea
 
-A contemporaneous October 2017 employment/HR communication recorded that after procyclidine was reintroduced at a lower dose, the lower dose was not covering all symptoms.
+The 2019 record states that on higher doses of Neupro the patient was having chorea/dyskinesia, including swinging hips and leaning on one leg.
 
-**Relevant propositions:** P05, P07
+Complete-record anchor: CLIN-002114–CLIN-002132
+Relevant propositions: P14, P20, P21
 
----
+F039 — Higher-dose dopamine agonist treatment was associated with behavioural/impulsivity concerns
 
-### F028 — The neurologist later documented a focal foot-specific withdrawal effect
+The 2019 record documents increased online/compulsive behaviours at higher Neupro doses and identifies these as treatment concerns.
 
-In April 2018 the treating neurologist recorded that during the earlier procyclidine withdrawal the first thing noticed changing rapidly was the return of the outside-left-foot/corn phenomenon.
+Complete-record anchor: CLIN-002118–CLIN-002138
+Relevant propositions: P20, P21
 
-**Relevant propositions:** P05, P06
+F040 — The 2019 management model explicitly described a “tight rope”
 
----
+The neurologist described the problem as balancing stiffness/lack of movement and discomfort against impulsivity, compulsive behaviours, obsessionality and chorea/dyskinesia.
 
-### F029 — The 2018 record still recognised that stronger dopaminergic treatment might produce further improvement
+Complete-record anchor: CLIN-002137–CLIN-002158
+Relevant propositions: P14, P20, P21
 
-In April 2018 the neurologist recorded that the patient could be much better if levodopa or another dopamine agonist were given, while maintaining the previously stated reasons for not doing so at that stage.
+G. 2021 THERAPEUTIC SUBSTITUTION
 
-**Relevant propositions:** P07, P08, P20
+F041 — Levodopa was first introduced in September 2021 because the patient felt undertreated
 
----
+The 27 October 2021 note records Sinemet 62.5 mg twice daily as the first levodopa drug.
 
-## F. TREATMENT-RISK EVIDENCE
+Complete-record anchor: CLIN-002330–CLIN-002335
+Relevant propositions: P07, P09
 
-### F030 — Dopamine-agonist treatment later produced dyskinetic/choreiform effects
+F042 — Procyclidine was removed because of ocular pressure concerns and replaced with Sinemet
 
-Later treatment with rotigotine/Neupro produced abnormal involuntary movements at higher treatment levels.
+The same note records that the Parkinson's nurse suggested removing Kemadrin and replacing it with Sinemet because of raised ocular pressure.
 
-**Relevant propositions:** P14, P20, P21
+Complete-record anchor: CLIN-002336–CLIN-002337
+Relevant propositions: P09, P10
 
----
+F043 — The expected substitution was expressly framed as one that would “more than compensate”
 
-### F031 — Dopamine-agonist treatment also generated behavioural/impulsivity concerns
+The patient hoped that the increased Sinemet dose, now four times daily, would “more than compensate for the Kemadrin removal”.
 
-The record documents concern about behavioural or impulse-control effects during dopamine-agonist treatment.
+Complete-record anchor: CLIN-002338
+Relevant propositions: P09, P10
 
-**Relevant propositions:** P20, P21
+F044 — Neurology remained concerned about rapid Sinemet escalation and chorea
 
----
+The 2021 note records concern that Sinemet had quickly become 62.5 mg four times daily, notes awareness of chorea and states a wish not to increase Sinemet significantly above that level.
 
-### F032 — Levodopa-containing treatment was also associated with dyskinesia/chorea
+Complete-record anchor: CLIN-002342–CLIN-002353
+Relevant propositions: P09, P14, P20, P21
 
-The later record documents dyskinetic/choreiform movements even at relatively modest dopaminergic exposure and more obvious chorea with stronger Stalevo treatment.
+H. 2022–2024 TEMPORAL AND PAIN EVIDENCE
 
-**Relevant propositions:** P13, P14, P20, P21
+F045 — A reproducible morning foot “warm-up” was documented in 2022
 
----
+The 2022 record states that most mornings the feet took 20–25 minutes to warm up and were sore around the corns/calluses.
 
-## G. 2021 THERAPEUTIC SUBSTITUTION
+Complete-record anchor: CLIN-002375–CLIN-002383
+Relevant propositions: P10, P13, P18
 
-### F033 — Levodopa was introduced in 2021
+F046 — Sinemet use was adjusted according to expected functional demands
 
-Immediate-release Sinemet was introduced in September 2021 because the patient was considered undertreated.
+The same note states that the small Sinemet tablets were optional and that the patient adjusted Sinemet according to expected demands such as playing darts.
 
-**Relevant propositions:** P07, P09
+Complete-record anchor: CLIN-002384–CLIN-002386
+Relevant propositions: P13, P14
 
----
+F047 — Dyskinesia was documented even at low levodopa exposure
 
-### F034 — Procyclidine was subsequently withdrawn because of ocular concerns
+The 2022 record describes subtle excessive movement on a very minimal levodopa dose and notes that stronger Stalevo had previously produced obvious dyskinesia/chorea.
 
-Kemadrin/procyclidine was removed because of raised ocular pressure/eye concerns.
+Complete-record anchor: CLIN-002392–CLIN-002395
+Relevant propositions: P13, P14, P20, P21
 
-**Relevant propositions:** P09, P10
+F048 — Severe bilateral foot/lower-leg pain was documented in March 2023 despite high-dose pregabalin
 
----
+The Parkinson's nurse recorded ongoing possible neuropathic pain in both feet/legs, pregabalin 600 mg/day and debilitating pain with no quality of life.
 
-### F035 — Sinemet was increased in the context of replacing procyclidine
+Complete-record anchor: CLIN-002677–CLIN-002684
+Relevant propositions: P11, P12, P15
 
-The contemporaneous Neurology record describes Sinemet being increased when procyclidine was removed.
+F049 — The March 2023 record contains contrary medication-withdrawal evidence
 
-**Relevant propositions:** P09, P10
+The same March 2023 email records the patient's report that he had stopped Parkinson's medication for ten days and felt no difference from a Parkinson's perspective.
 
----
+Complete-record anchor: CLIN-002682–CLIN-002684
+Relevant propositions: P15, P16
 
-### F036 — The expected substitution was described as more than compensating for Kemadrin
+F050 — Later 2023 the record linked pain and shuffling to lower Sinemet state
 
-The record contains the expectation that increased Sinemet would "more than compensate" for removal of Kemadrin.
+A later contact note records severe foot pain, reduced mobility and shuffling, with the patient reporting being worse in the morning and later in the day if he had not taken Sinemet.
 
-**Relevant propositions:** P09, P10
+Complete-record anchor: CLIN-002573–CLIN-002579
+Relevant propositions: P13, P15, P16
 
----
+F051 — Neurology classified that later pattern as undertreatment and OFF-related
 
-### F037 — The contemporaneous 2021 record does not identify chronic foot pain as the specific reason Sinemet was originally commenced
+The same note states that from the description the patient appeared undertreated and that the leg pain and shuffling were OFF-related.
 
-The recorded rationale for starting Sinemet concerned undertreatment/general Parkinsonian management rather than an explicitly documented foot-specific therapeutic trial.
+Complete-record anchor: CLIN-002579–CLIN-002581
+Relevant propositions: P13, P15, P16
 
-**Relevant propositions:** P09, P10
+F052 — In later 2023 the patient described evening protective stance, short steps and lack of movement
 
----
+The clinical record describes evening episodes of protective stance, lack of movement and short steps and records the clinician's view that these sounded like typical OFF Parkinsonian evening symptoms.
 
-## H. 2022–2024 EMERGING TEMPORAL PATTERN
+Complete-record anchor: CLIN-002455–CLIN-002468
+Relevant propositions: P13, P15, P16
 
-### F038 — A reproducible morning foot warm-up was documented in 2022
+F053 — The record also documents levodopa use for functional benefit and pain
 
-The 2022 record states that the feet took approximately 20–25 minutes to "warm up" on most mornings.
+The patient stated that Stalevo was being taken for “Pep in the Step” and “for pain”.
 
-**Relevant propositions:** P10, P13, P18
+Complete-record anchor: CLIN-002469–CLIN-002470
+Relevant propositions: P13, P15, P16
 
----
+F054 — Pregabalin materially reduced pain while clawing persisted
 
-### F039 — Immediate-release Sinemet use was flexible or demand-related
+The 2023–2024 record states that Lyrica substantially reduced foot pain, while clawing/toe curling and functional limitations persisted.
 
-During this period the record describes Sinemet use being adjusted in part according to anticipated activity or functional demand.
+Complete-record anchor: CLIN-002447–CLIN-002448; CLIN-002698–CLIN-002704
+Relevant propositions: P11, P12, P13
 
-**Relevant propositions:** P13, P14
+F055 — In 2024 toe curling remained provoked by activity despite analgesic benefit
 
----
+The 2024 note records toe curling after several minutes of pumping bicycle tyres and states that Lyrica had removed much of the foot pain but did not relieve the toe curling.
 
-### F040 — Severe burning foot/lower-leg pain emerged prominently in 2023
+Complete-record anchor: CLIN-002698–CLIN-002704
+Relevant propositions: P11, P13
 
-The 2023 record documents severe bilateral burning foot/lower-leg pain causing major functional and psychological burden.
+I. 2025 OVERNIGHT-COVERAGE EVIDENCE
 
-**Relevant propositions:** P11, P15
+F056 — Severe morning foot pain was documented in 2025
 
----
+The 2025 note records that the patient hobbled out of bed, described “murder in the feet” and stated that the first approximately 150 footsteps were torture.
 
-### F041 — Pregabalin was introduced in the context of severe burning/neuropathic-type pain
+Complete-record anchor: CLIN-002777–CLIN-002780
+Relevant propositions: P13, P17
 
-The contemporaneous record describes GP treatment with pregabalin for severe burning or neuropathic-type foot/lower-leg pain.
+F057 — The 2025 note records relief once Parkinson medication took effect
 
-**Relevant propositions:** P11, P12
+The same note states that once the Parkinson medications hit his system he experienced relief in the feelings in the feet.
 
----
+Complete-record anchor: CLIN-002778–CLIN-002780
+Relevant propositions: P17, P18
 
-### F042 — Pregabalin produced substantial analgesic benefit
+F058 — A prolonged overnight medication gap was explicitly documented
 
-Later records document substantial improvement in foot pain with pregabalin.
+The note records the last Sinemet dose at about 8 PM, bedtime at about 1 AM and waking at about 08:45.
 
-**Relevant propositions:** P11, P12
+Complete-record anchor: CLIN-002794
+Relevant propositions: P13, P17
 
----
+F059 — Controlled-release Sinemet was introduced as an overnight timing/duration intervention
 
-### F043 — Pregabalin did not eliminate all lower-limb phenomena
+The clinician proposed Sinemet controlled release near bedtime, beginning with half a tablet and increasing if tolerated.
 
-Despite improvement in pain, toe curling/clawing and other motor/postural problems persisted.
+Complete-record anchor: CLIN-002795–CLIN-002800
+Relevant propositions: P13, P17
 
-**Relevant propositions:** P11, P13
+F060 — The later 2025 complaint response records “profound relief” with Sinemet CR
 
----
+The complaint response states that Sinemet treatment had recently been escalated slowly and carefully as Sinemet CR and that it had provided “profound relief currently”.
 
-### F044 — Reduction of pregabalin was followed by worsening foot pain
+Complete-record anchor: CLIN-003263–CLIN-003269
+Relevant propositions: P17, P18
 
-After major self-reduction of pregabalin, foot pain again became a major problem.
+J. RETROSPECTIVE 2025 ACCOUNT
 
-**Relevant propositions:** P11, P12
+F061 — The 2025 retrospective account states that Sinemet had been understood to help pain for some time
 
----
+The complaint response states that Sinemet had been known and acknowledged to help the patient's experience of ongoing pain.
 
-## I. 2023 COMPETING MEDICATION-STATE EVIDENCE
+Complete-record anchor: CLIN-003243–CLIN-003248; CLIN-003263–CLIN-003264
+Relevant propositions: P16, P21
 
-### F045 — A March 2023 self-withdrawal report provided contrary evidence
+F062 — The 2025 account describes pregabalin as partly levodopa-sparing
 
-In March 2023 the patient reported having stopped Parkinson medication for approximately ten days without perceiving a material difference in Parkinsonian symptoms.
+The complaint response states that pregabalin had been introduced for neuropathic pain, of whatever cause, in part to try to spare further Sinemet increase.
 
-**Relevant propositions:** P15, P16
+Complete-record anchor: CLIN-003265
+Relevant propositions: P12, P21
 
----
+F063 — The 2025 account explicitly restates the original levodopa-deferral rationale
 
-### F046 — Later 2023 observations linked lower medication state with pain and shuffling
+The complaint response quotes the 2017 passage explaining delay of levodopa/dopamine agonist treatment and possible future regret about not starting earlier.
 
-Later in 2023 the record documented worsening pain and shuffling when Sinemet had not been taken.
+Complete-record anchor: CLIN-003260–CLIN-003268
+Relevant propositions: P07, P20, P21
 
-**Relevant propositions:** P13, P15, P16
+K. GENETIC CONFIRMATION
 
----
+F064 — PRKN disease was genetically confirmed in 2026
 
-### F047 — Neurology itself interpreted the later pattern as OFF-related
+The St Vincent's letter states that genetic testing confirmed two pathogenic Parkin variants and that the patient's parkinsonism and dystonia were due to compound heterozygous Parkin mutations.
 
-The treating clinician recorded that the patient appeared undertreated and interpreted the leg pain and shuffling as typical OFF-related symptoms/non-motor fluctuation.
+Complete-record anchor: CLIN-003224–CLIN-003229
+Relevant propositions: P01, P02, P04
 
-**Relevant propositions:** P13, P15, P16
+Boundary rule
 
----
+The following are not treated as documentary facts merely because the record raises them:
 
-### F048 — Additional dopaminergic treatment was considered against dyskinesia risk
+that all structural foot pathology was caused by dystonia;
 
-The record considered additional/evening levodopa while also recognising concern that increased dopaminergic exposure could provoke chorea/dyskinesia.
+that every historical foot-pain episode had one mechanism;
 
-**Relevant propositions:** P13, P14, P20
+that pregabalin response proves peripheral neuropathy;
 
----
+that levodopa necessarily should have been started in 2017;
 
-## J. 2025 OVERNIGHT-COVERAGE EVIDENCE
+that a 2017 dopaminergic trial would necessarily have improved the feet;
 
-### F049 — Severe morning foot pain was associated with a prolonged overnight medication gap
+that Sinemet CR would necessarily have produced the same result if used earlier;
 
-In 2025 the patient described severe morning foot pain on first walking, in the context of the last Sinemet dose being taken in the evening and a prolonged overnight interval without dopaminergic treatment.
+that movement-disorders co-management was necessarily required at any specific date;
 
-**Relevant propositions:** P13, P17
+that any failure to carry evidence forward was deliberate;
 
----
+that later management was negligent.
 
-### F050 — Morning symptoms improved after Parkinson medication took effect
-
-The 2025 record describes improvement in the severe morning foot symptoms once Parkinson medication had entered the system/taken effect.
-
-**Relevant propositions:** P17, P18
-
----
-
-### F051 — Neurology explicitly considered overnight dopaminergic coverage
-
-The clinician considered the prolonged low-dopaminergic overnight state as relevant and introduced controlled-release Sinemet near bedtime to extend coverage.
-
-**Relevant propositions:** P13, P17
-
----
-
-### F052 — The controlled-release trial was an explicit timing/formulation intervention
-
-Sinemet CR was introduced to alter duration/timing of dopaminergic coverage rather than simply repeating the existing daytime immediate-release schedule.
-
-**Relevant propositions:** P13, P17
-
----
-
-### F053 — The later clinical account records "profound relief" from Sinemet CR
-
-The 2025 complaint response records that introduction of Sinemet CR produced "profound relief".
-
-**Relevant propositions:** P17, P18
-
----
-
-## K. LATER RETROSPECTIVE ACCOUNT
-
-### F054 — The 2025 complaint response states that Sinemet had been understood to help pain for some time
-
-The treating neurologist's 2025 retrospective account states that it had been understood "for quite some time" that Sinemet helped the patient's pain.
-
-**Relevant propositions:** P16, P21
-
----
-
-### F055 — The later account describes pregabalin as partly levodopa-sparing
-
-The 2025 response states that pregabalin was used in part to avoid further increases in Sinemet.
-
-**Relevant propositions:** P12, P21
-
----
-
-### F056 — The original pregabalin initiation record documents a different immediate context
-
-The contemporaneous initiation record describes pregabalin being introduced for severe burning/neuropathic-type pain and does not document an original levodopa-sparing rationale.
-
-**Relevant propositions:** P12
-
----
-
-## L. GENETIC CONFIRMATION
-
-### F057 — PRKN disease was genetically confirmed in 2026
-
-The St Vincent's genetic report identified two pathogenic Parkin variants and concluded that the patient's parkinsonism and dystonia were due to compound-heterozygous Parkin mutations.
-
-**Relevant propositions:** P01, P02, P04
-
----
-
-### F058 — Genetic confirmation occurred after the management period under examination
-
-The PRKN confirmation was obtained in 2026 and therefore was not information available to clinicians making the earlier treatment and diagnostic decisions.
-
-**Relevant propositions:** P04, P18
-
----
-
-## M. CORE LONGITUDINAL RECORD FACTS
-
-### F059 — Foot/lower-limb abnormalities were present before diagnosis and continued after diagnosis
-
-The documentary record contains recurring foot/lower-limb symptoms and abnormalities from the pre-diagnostic period through later neurological and Podiatry follow-up.
-
-**Relevant propositions:** P01, P03, P15
-
----
-
-### F060 — Both structural and medication-state-responsive features recur in the longitudinal record
-
-The record repeatedly documents genuine structural foot pathology while also documenting changes in lower-limb/foot symptoms associated with neurological medication state.
-
-**Relevant propositions:** P03, P05, P11, P15
-
----
-
-### F061 — Treatment benefit and treatment risk both accumulated longitudinally
-
-The record contains repeated evidence of substantial treatment responsiveness together with repeated evidence of dyskinesia, behavioural effects or other treatment-limiting adverse effects.
-
-**Relevant propositions:** P14, P20, P21
-
----
-
-### F062 — The management strategy changed over time
-
-The recorded strategy evolved from initial dopamine-replacement restraint, through dopamine-agonist treatment and later low-dose/flexible levodopa use, to consideration of timing, meal relationship, evening dosing and eventually controlled-release overnight treatment.
-
-**Relevant propositions:** P07, P13, P19, P20
-
----
-
-## Boundary rule
-
-The following are NOT treated as documentary facts merely because they are raised by the record:
-
-- that the structural foot pathology was caused by dystonia;
-- that all historical foot pain was neurological;
-- that pregabalin response proves peripheral neuropathy;
-- that levodopa should necessarily have been started in 2017;
-- that an earlier levodopa trial would necessarily have improved the feet;
-- that Sinemet CR would necessarily have produced the same benefit if used earlier;
-- that specialist movement-disorders co-management was necessarily required at any particular date;
-- that later management was negligent;
-- that any failure to carry evidence forward was deliberate.
-
-Those matters remain propositions, tensions, counterfactuals or questions for independent expert assessment.
+Those matters remain propositions, tensions, counterfactuals, decision-point questions or matters for independent expert opinion.

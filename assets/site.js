@@ -1,6 +1,8 @@
 const documents=[
 {id:'argument',title:'Clinical argument',file:'README.md',description:'Clinical synthesis and central longitudinal argument.',principal:true},
 {id:'review',title:'Independent neurological review',file:'independent-neurological-review.md',description:'Professional-standard and decision-point assessment for independent expert adjudication.',principal:true},
+{id:'method',title:'Iterative reading & evidential instability',file:'iterative-reading-evidential-instability.md',description:'Why repeated structured reading can change evidential weighting without changing the facts.',principal:true},
+{id:'testing',title:'What must be tested now',file:'WHAT-MUST-BE-TESTED-NOW.md',description:'Date-specific standard-of-care, mechanism, referral and causation questions for independent expert testing.',principal:true},
 {id:'propositions',title:'Propositions',file:'propositions.md',description:'Questions and propositions requiring evidential or expert testing.',principal:true},
 {id:'facts',title:'Facts',file:'facts.md',description:'Documentary facts anchored to the underlying clinical record.',principal:true},
 {id:'decisions',title:'Decision points',file:'DECISION-POINTS.md',description:'Material choices, substitutions and opportunities to re-evaluate.',principal:true},

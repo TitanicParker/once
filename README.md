@@ -1,97 +1,17 @@
-INSTRUCTIONS TO THE READER
+What the record supports is that Sinemet CR in 2025 appears to have supplied overnight dopaminergic coverage that substantially reduced a morning foot-pain phenomenon in a patient whose foot symptoms had already, years earlier, shown patient-specific sensitivity to neurological medication state. What it does not prove is that the 2017–2018 and 2025 symptoms had one identical generator, that the structural corn itself was neurologically caused, or that Sinemet CR would necessarily have produced the same result if tried earlier.
 
-You have been provided with three linked documents:
+In 2017–2018, the new knowledge was already significant. During the planned procyclidine withdrawal, the contemporaneous account records increasing tension, restless feet and deterioration of gait; the 2018 Neurology note then localises the withdrawal effect more specifically, recording that the first thing noticed changing rapidly was the return of the outside-left-foot/corn phenomenon, with greater shiftiness and lack of relaxation off procyclidine. That sequence did not resolve the underlying pain mechanism, but it did make one patient-specific proposition newly supportable: symptoms experienced at the original foot site were neurologically medication-state modifiable.
 
-1. complete-record.md
-2. HOW-TO-READ-COMPLETE-RECORD.md
-3. RECORD-FINDINGS-REGISTER.md
+The surviving intervening record does not show that proposition retaining equally explicit force throughout later causal reasoning. It remained locally relevant to procyclidine management, but when recurrent foot problems were subsequently described through structural, neuropathic, dystonic and pain-amplification framings, the specific 2017–2018 withdrawal finding is not consistently cited or visibly used as a standing premise. Later dopaminergic relevance was instead generated again from newer observations—morning patterns, OFF-related pain/shuffling and Stalevo/Sinemet effects. That is why the Pass 13 classification of the early focal finding as local updating followed by weakened/lost visible evidential continuity is defensible. This describes the documentation; it does not establish that anyone literally forgot the earlier event.
 
-These documents should be used together and in that order.
+The 2025 CR trial is unusually important because it directly targeted duration and coverage rather than simply increasing an immediate-release dose. At that point the patient described severe morning foot pain, mainly left-sided, after a long overnight interval; the note records that the feet improved once Parkinson medication reached his system. His last ordinary Sinemet was around 8 p.m., with sleep around 1 a.m. and waking around 8:45 a.m. Neurology explicitly considered whether the morning problem reflected being without medication overnight and prescribed controlled-release Sinemet near bedtime as a trial.
 
-First, read complete-record.md as the primary source record.
+The subsequent record says the CR treatment produced “profound relief currently,” and the later Quality and Patient Safety correspondence records Sinemet CR as an effective analgesic for the foot pain. So, documentarily, this is much more than a generic observation that levodopa sometimes helped movement: it is a formulation-and-timing experiment designed around the overnight gap, followed by marked benefit.
 
-Do not begin by trying to decide what the case means, who was right, whether any treatment was appropriate, or whether any failure occurred. At this stage, identify only what is actually documented: symptoms, observations, diagnoses, referrals, investigations, treatment decisions, medication changes, patient reports, clinician interpretations, and later explanations.
+The safest synthesis is therefore:
 
-Second, use HOW-TO-READ-COMPLETE-RECORD.md to re-read the record in a structured way.
+2017–2018 established patient-specific neurological modifiability of the foot symptom complex; that finding did not retain consistently visible force in the intervening longitudinal causal model; medication-state relevance was subsequently rediscovered through later observations; and the 2025 Sinemet CR trial then supplied the clearest evidence that sustained overnight dopaminergic coverage could materially suppress the morning foot-pain experience.
 
-The purpose of that document is to prevent a simple chronological narrative from becoming the only interpretation of the evidence. Apply the different reading methods and controls to identify not only facts within the clinical record, but also facts about the record itself.
+The word “same” needs care. The anatomical and phenomenological continuity is substantial—the outside-left-foot problem recurs repeatedly and the 2025 pain was again predominantly left-sided—but the record does not prove that the structural lesion, burning syndrome, dystonic component and later morning pain were one unchanged mechanism. Sinemet CR therefore confirms and strengthens the long-standing modulation proposition, rather than retrospectively solving the original causal question.
 
-In particular, pay attention to:
-
-- what was known at each point in time;
-- what remained uncertain;
-- when a proposition first appeared;
-- whether later statements are supported by contemporaneous evidence;
-- whether a later rationale is being attributed retrospectively to an earlier decision;
-- what question was actually transmitted through a referral;
-- whether new evidence was genuinely integrated into the existing formulation;
-- how symptoms changed with medication withdrawal, onset, wearing-off, timing, dose, or formulation;
-- whether an examination or clinic observation was representative of the patient's usual or worst state;
-- whether treatment response was consistent, inconsistent, partial, or non-monotonic;
-- whether repeated language represents new evidence or inherited framing; and
-- whether an unresolved question was actually answered or simply ceased to influence management.
-
-Do not assume that a later clinical summary is an authoritative account of the earlier record. A later note is itself another document created at a later time and should be tested against the contemporaneous material it describes.
-
-Do not allow diagnostic labels to substitute for observation. Where possible, trace what symptoms actually did over time and under changing clinical or medication conditions.
-
-Third, complete RECORD-FINDINGS-REGISTER.md.
-
-The findings register is the output of the exercise. It should not be used to construct a preferred narrative. It should capture the evidence in a form that another reader can independently audit.
-
-For each material finding, distinguish:
-
-CASE FACT:
-What happened or was documented in the clinical history.
-
-RECORD FACT:
-What can objectively be established about the way the record was created, sequenced, framed, transmitted, repeated, qualified, or retrospectively reconstructed.
-
-INTERPRETIVE CONSEQUENCE:
-What the record fact changes about what the case fact is capable of proving.
-
-COUNTEREVIDENCE:
-Any evidence that qualifies, contradicts, limits, or complicates the proposition.
-
-UNRESOLVED PROPOSITION:
-The exact question that remains open after the available evidence is considered.
-
-DECISION POINT:
-A point at which new evidence may have been capable of changing assessment, investigation, referral, treatment, or communication.
-
-EXPERT QUESTION:
-A question that the documents can identify but which cannot properly be answered without independent clinical, pharmacological, legal, or other relevant expertise.
-
-Every finding should be traceable to its source.
-
-Where the record contains conflicting accounts, preserve the conflict. Do not average it into a simpler conclusion.
-
-Where a treatment appears effective at one time and ineffective at another, record both observations.
-
-Where a later document attributes an earlier rationale, record both the contemporaneous rationale and the later-attributed rationale separately.
-
-Where an observation was made during a potentially unrepresentative part of the patient's day or medication cycle, record that limitation without suggesting that the observation itself was false.
-
-Where the record is silent, state that the relevant action, reasoning, or discussion is not visible in the surviving documentation. Do not convert documentary silence into proof that it did not occur.
-
-The final register should therefore distinguish four things:
-
-1. What the record establishes.
-2. What the record supports but does not establish.
-3. What the record leaves unresolved.
-4. What requires external expert judgment.
-
-The purpose of the exercise is not to produce a cleaner or more persuasive story than the source material supports.
-
-The purpose is to make the evidential structure of the record visible.
-
-The governing chain is:
-
-SOURCE
-→ CASE FACT
-→ RECORD FACT
-→ INTERPRETIVE CONSEQUENCE
-→ UNRESOLVED PROPOSITION
-→ EXPERT QUESTION
-
-If a conclusion cannot be traced through that chain, weaken it until it can.
+The most consequential point is that 2025 did not create the first evidence that the feet were neurologically state-sensitive; it provided a much more therapeutically successful and temporally specific demonstration of a type of modifiability that had entered the record in 2017–2018 but had not been continuously visible as an organising premise thereafter.

@@ -1,35 +1,97 @@
-Was a material unresolved pain/foot question identified in 2017, then allowed to remain outside the main decision architecture while evidence relevant to it accumulated—and, if so, was there a point at which reasonable clinical practice required that uncertainty to be explicitly re-opened, integrated and acted upon?
-The first task is not to decide whether there was wrongdoing. It is to identify the decision points at which the unresolved foot-pain problem could reasonably have changed status. In this record, those points include July 2017, the procyclidine withdrawal evidence later in 2017, recurrent Podiatry findings through 2018–2019, the introduction of levodopa in 2021, the morning pain pattern in 2022, the severe bilateral burning pain and medication withdrawal in 2023, the pain–toe-curling dissociation in 2024, and the strong morning medication-state response in 2025.
+INSTRUCTIONS TO THE READER
 
-Then, at each decision point, you ask the same core questions:
+You have been provided with three linked documents:
 
-What was known immediately before the decision?
-What remained unresolved?
-What new evidence had arrived since the last review?
-Was that new evidence integrated into the existing formulation?
-Did it alter management, trigger referral, investigation, or a therapeutic trial?
-If it did not, is there a documented reason why not?
+1. complete-record.md
+2. HOW-TO-READ-COMPLETE-RECORD.md
+3. RECORD-FINDINGS-REGISTER.md
 
-That produces a decision-point audit rather than a narrative accusation.
+These documents should be used together and in that order.
 
-The next step is to separate the possible forms of failure. You would test them independently: failure to formulate the problem correctly; failure to transmit the problem through referral; failure to follow up or obtain feedback; failure to reconsider an earlier working model when contrary evidence appeared; failure to test a reasonable therapeutic hypothesis; or failure to communicate the unresolved nature of the problem to the patient. One of those could be supported while the others are not.
+First, read complete-record.md as the primary source record.
 
-Then comes the most important control: counterfactual restraint. You do not ask, “Would Sinemet CR in 2017 have solved everything?” The record cannot establish that. You ask a narrower question:
+Do not begin by trying to decide what the case means, who was right, whether any treatment was appropriate, or whether any failure occurred. At this stage, identify only what is actually documented: symptoms, observations, diagnoses, referrals, investigations, treatment decisions, medication changes, patient reports, clinician interpretations, and later explanations.
 
-Given the evidence available at that particular time, was there a clinically reasonable step that should have been considered, and was it omitted or materially delayed?
+Second, use HOW-TO-READ-COMPLETE-RECORD.md to re-read the record in a structured way.
 
-That question requires an independent expert because it is where documentary analysis ends and standard-of-care judgment begins.
+The purpose of that document is to prevent a simple chronological narrative from becoming the only interpretation of the evidence. Apply the different reading methods and controls to identify not only facts within the clinical record, but also facts about the record itself.
 
-After that, you construct the causation chain separately. Even if an expert identifies a departure from reasonable care, you still need to ask whether it caused harm. The chain would have to look something like:
+In particular, pay attention to:
 
-unresolved problem → missed/delayed reassessment or intervention → continued pain during that interval → later evidence showing that the omitted intervention or alternative pathway would probably have materially reduced the pain.
+- what was known at each point in time;
+- what remained uncertain;
+- when a proposition first appeared;
+- whether later statements are supported by contemporaneous evidence;
+- whether a later rationale is being attributed retrospectively to an earlier decision;
+- what question was actually transmitted through a referral;
+- whether new evidence was genuinely integrated into the existing formulation;
+- how symptoms changed with medication withdrawal, onset, wearing-off, timing, dose, or formulation;
+- whether an examination or clinic observation was representative of the patient's usual or worst state;
+- whether treatment response was consistent, inconsistent, partial, or non-monotonic;
+- whether repeated language represents new evidence or inherited framing; and
+- whether an unresolved question was actually answered or simply ceased to influence management.
 
-Each arrow has to be supported. The later “profound relief” from Sinemet CR is relevant, but it does not by itself prove what would have happened years earlier.
+Do not assume that a later clinical summary is an authoritative account of the earlier record. A later note is itself another document created at a later time and should be tested against the contemporaneous material it describes.
 
-You then audit the 2025 retrospective explanation against the contemporaneous record. For every important claim in the complaint response—“we knew,” “for quite some time,” “pregabalin was partly Sinemet-sparing,” “the pain was understood as amplified by Parkinson’s”—you identify the earliest contemporaneous document that actually supports it. That tells you whether the complaint response accurately summarises the earlier record, compresses a later-developed understanding backwards, or contains a mixture of both.
+Do not allow diagnostic labels to substitute for observation. Where possible, trace what symptoms actually did over time and under changing clinical or medication conditions.
 
-Finally, only after those steps would you move into formal accountability questions: clinical standard of care, causation, preventability, complaint handling, and whether a patient-safety review should have been considered. Current HSE incident-management structures are specifically intended to review incidents for patient-safety learning, while open-disclosure policy applies where something goes wrong, harm occurs, or harm may have occurred. The 2025 policy also explicitly recognises that incidents can span multiple teams and services, which is relevant to a pathway involving GP, Neurology and Podiatry.
+Third, complete RECORD-FINDINGS-REGISTER.md.
 
-So the progression is:
+The findings register is the output of the exercise. It should not be used to construct a preferred narrative. It should capture the evidence in a form that another reader can independently audit.
 
-identify the unresolved proposition → locate every decision point → audit what changed → identify any missed reassessment → obtain expert judgment on what reasonably should have happened → establish whether any departure caused additional pain → only then characterise responsibility.
+For each material finding, distinguish:
+
+CASE FACT:
+What happened or was documented in the clinical history.
+
+RECORD FACT:
+What can objectively be established about the way the record was created, sequenced, framed, transmitted, repeated, qualified, or retrospectively reconstructed.
+
+INTERPRETIVE CONSEQUENCE:
+What the record fact changes about what the case fact is capable of proving.
+
+COUNTEREVIDENCE:
+Any evidence that qualifies, contradicts, limits, or complicates the proposition.
+
+UNRESOLVED PROPOSITION:
+The exact question that remains open after the available evidence is considered.
+
+DECISION POINT:
+A point at which new evidence may have been capable of changing assessment, investigation, referral, treatment, or communication.
+
+EXPERT QUESTION:
+A question that the documents can identify but which cannot properly be answered without independent clinical, pharmacological, legal, or other relevant expertise.
+
+Every finding should be traceable to its source.
+
+Where the record contains conflicting accounts, preserve the conflict. Do not average it into a simpler conclusion.
+
+Where a treatment appears effective at one time and ineffective at another, record both observations.
+
+Where a later document attributes an earlier rationale, record both the contemporaneous rationale and the later-attributed rationale separately.
+
+Where an observation was made during a potentially unrepresentative part of the patient's day or medication cycle, record that limitation without suggesting that the observation itself was false.
+
+Where the record is silent, state that the relevant action, reasoning, or discussion is not visible in the surviving documentation. Do not convert documentary silence into proof that it did not occur.
+
+The final register should therefore distinguish four things:
+
+1. What the record establishes.
+2. What the record supports but does not establish.
+3. What the record leaves unresolved.
+4. What requires external expert judgment.
+
+The purpose of the exercise is not to produce a cleaner or more persuasive story than the source material supports.
+
+The purpose is to make the evidential structure of the record visible.
+
+The governing chain is:
+
+SOURCE
+→ CASE FACT
+→ RECORD FACT
+→ INTERPRETIVE CONSEQUENCE
+→ UNRESOLVED PROPOSITION
+→ EXPERT QUESTION
+
+If a conclusion cannot be traced through that chain, weaken it until it can.

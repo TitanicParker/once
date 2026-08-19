@@ -1,0 +1,1 @@
+Was a material unresolved pain/foot question identified in 2017, then allowed to remain outside the main decision architecture while evidence relevant to it accumulated—and, if so, was there a point at which reasonable clinical practice required that uncertainty to be explicitly re-opened, integrated and acted upon?

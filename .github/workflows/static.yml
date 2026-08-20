@@ -14,6 +14,17 @@ jobs:
     environment: github-pages
     steps:
       - uses: actions/checkout@v4
+      - name: Prepare static publication
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('TIMELINES.html')
+          s = p.read_text()
+          marker = '<script src="assets/timeline-enhance.js"></script>'
+          if marker not in s:
+              s = s.replace('</body>', marker + '\n</body>')
+              p.write_text(s)
+          PY
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

@@ -1,19 +1,19 @@
 const documents=[
-{id:'argument',title:'Clinical argument',file:'README.md',description:'Plain-language synthesis and central longitudinal argument.',principal:true},
-{id:'review',title:'Independent neurological review',file:'independent-neurological-review.md',description:'Professional-standard and decision-point assessment for independent expert adjudication.',principal:true},
-{id:'testing',title:'What must be tested now',file:'WHAT-MUST-BE-TESTED-NOW.md',description:'The questions the documents cannot finally answer without expert evidence.',principal:true},
-{id:'method',title:'Iterative reading & evidential instability',file:'iterative-reading-evidential-instability.md',description:'Why repeated structured reading can change evidential weighting without changing the facts.',principal:true},
-{id:'propositions',title:'Propositions',file:'propositions.md',description:'Questions and propositions requiring evidential or expert testing.',principal:true},
-{id:'facts',title:'Facts',file:'facts.md',description:'Documentary facts anchored to the underlying clinical record.',principal:true},
-{id:'decisions',title:'Decision points',file:'DECISION-POINTS.md',description:'Material choices, substitutions and opportunities to re-evaluate.',principal:true},
-{id:'tensions',title:'Tensions',file:'TENSIONS.md',description:'Coexisting evidence requiring explanation or weighting.',principal:true},
-{id:'specialist',title:'Specialist input',file:'SPECIALIST-INPUT.md',description:'Specialist involvement and thresholds for renewed review.',principal:true},
-{id:'referral',title:'Referral & escalation',file:'REFERRAL-SPECIALIST-ESCALATION.md',description:'Referral scope, recipients and unresolved questions.',principal:true},
-{id:'findings',title:'Findings register',file:'RECORD-FINDINGS-REGISTER.md',description:'Detailed evidential findings register.',reference:true},
-{id:'record',title:'Complete record',file:'complete-record.md',description:'Underlying longitudinal source record.',reference:true},
-{id:'quotes',title:'Quotes',file:'quotes.md',description:'Selected quotations and extracts.',reference:true},
-{id:'expert',title:'Expert material',file:'expert.md',description:'Expert-oriented analysis and questions.',reference:true},
-{id:'timeline',title:'Timeline',file:'TIMELINES.html',description:'Timeline presentation.',external:true}
+{id:'argument',title:'Clinical argument',file:'README.md',description:'Plain-language synthesis and central longitudinal argument.',principal:true,section:'Start here'},
+{id:'review',title:'Independent neurological review',file:'independent-neurological-review.md',description:'Professional-standard and decision-point assessment for independent expert adjudication.',principal:true,section:'Start here'},
+{id:'testing',title:'What must be tested now',file:'WHAT-MUST-BE-TESTED-NOW.md',description:'The questions the documents cannot finally answer without expert evidence.',principal:true,section:'Start here'},
+{id:'method',title:'Iterative reading & evidential instability',file:'iterative-reading-evidential-instability.md',description:'Why repeated structured reading can change evidential weighting without changing the facts.',principal:true,section:'Analysis'},
+{id:'propositions',title:'Propositions',file:'propositions.md',description:'Questions and propositions requiring evidential or expert testing.',principal:true,section:'Analysis'},
+{id:'decisions',title:'Decision points',file:'DECISION-POINTS.md',description:'Material choices, substitutions and opportunities to re-evaluate.',principal:true,section:'Analysis'},
+{id:'tensions',title:'Tensions',file:'TENSIONS.md',description:'Coexisting evidence requiring explanation or weighting.',principal:true,section:'Analysis'},
+{id:'specialist',title:'Specialist input',file:'SPECIALIST-INPUT.md',description:'Specialist involvement and thresholds for renewed review.',principal:true,section:'Analysis'},
+{id:'referral',title:'Referral & escalation',file:'REFERRAL-SPECIALIST-ESCALATION.md',description:'Referral scope, recipients and unresolved questions.',principal:true,section:'Analysis'},
+{id:'facts',title:'Facts',file:'facts.md',description:'Documentary facts anchored to the underlying clinical record.',principal:true,section:'Evidence'},
+{id:'findings',title:'Findings register',file:'RECORD-FINDINGS-REGISTER.md',description:'Detailed evidential findings register.',reference:true,section:'Evidence'},
+{id:'quotes',title:'Quotes',file:'quotes.md',description:'Selected quotations and extracts.',reference:true,section:'Evidence'},
+{id:'record',title:'Complete record',file:'complete-record.md',description:'Underlying longitudinal source record.',reference:true,section:'Source record'},
+{id:'timeline',title:'Timeline',file:'TIMELINES.html',description:'Chronological visual reference.',external:true,section:'Source record'},
+{id:'expert',title:'Expert material',file:'expert.md',description:'Expert-oriented analysis and questions.',reference:true,section:'Source record'}
 ];
 
 const relationships={
@@ -34,7 +34,8 @@ const principal=documents.filter(d=>d.principal);
 const $=s=>document.querySelector(s);
 const reader=$('#reader'),select=$('#docSelect'),pager=$('#pager'),prev=$('#prevBtn'),next=$('#nextBtn'),hint=$('#swipeHint'),progress=$('#progressBar'),map=$('#mapGrid');
 select.innerHTML=documents.map(d=>`<option value="${d.id}">${d.title}</option>`).join('');
-map.innerHTML=documents.map(d=>`<a class="map-card" href="${d.external?d.file:'#/'+d.id}"><strong>${d.title}</strong><span>${d.description}</span></a>`).join('');
+const sectionOrder=['Start here','Analysis','Evidence','Source record'];
+map.innerHTML=sectionOrder.map(section=>{const items=documents.filter(d=>d.section===section);return `<section class="map-section"><p class="map-section-title">${section}</p><div class="map-list">${items.map((d,i)=>`<a class="map-row ${i===0&&section==='Start here'?'map-row-featured':''}" href="${d.external?d.file:'#/'+d.id}"><span class="map-index">${String(documents.indexOf(d)+1).padStart(2,'0')}</span><span class="map-copy"><strong>${d.title}</strong><span>${d.description}</span></span><span class="map-arrow" aria-hidden="true">→</span></a>`).join('')}</div></section>`}).join('');
 marked.setOptions({gfm:true,breaks:false});
 const renderer=new marked.Renderer();
 renderer.heading=function({tokens,depth}){const text=this.parser.parseInline(tokens);const plain=text.replace(/<[^>]+>/g,'');const id=plain.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').replace(/-+/g,'-');return `<h${depth} id="${id}">${text}</h${depth}>`};
